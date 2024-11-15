@@ -13,7 +13,7 @@
 *.wdb  # Ignore Waveform Database files
 *.pb   # Ignore Project Backup files
 
-./loopback_test
+loopback_test
 
 
 # Ignore Vivado SDK directories
