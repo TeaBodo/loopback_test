@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 15 09:57:38 2024
+# Process ID: 10488
+# Current directory: C:/Users/KU_ALICE_Lab/Documents/git_tea/KCU105_Tx_1600
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9752 C:\Users\KU_ALICE_Lab\Documents\git_tea\KCU105_Tx_1600\KCU105_Tx_1600.xpr
+# Log file: C:/Users/KU_ALICE_Lab/Documents/git_tea/KCU105_Tx_1600/vivado.log
+# Journal file: C:/Users/KU_ALICE_Lab/Documents/git_tea/KCU105_Tx_1600\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 15 09:58:01 2024...
