@@ -21,38 +21,48 @@
 
 
 module top(
-    input BOARD_CLK_N,
-    input BOARD_CLK_P,
-    input XM107_CLK
+    //clock source
+    input BOARD_CLK125M_N,
+    input BOARD_CLK125M_P,//low speed clock source
+    input XM107_CLK800M_N,
+    input XM107_CLK800M_P,//high speed clock source from XM107
 
+    //TX port
+    output TX_N,
+    output TX_P,
+
+    //RX port
+    input RX_N,
+    input RX_P
 );
-wire rst;
 //clock source
 //-------------------------------------------
-wire CLK_200M;
-clk_wiz_0 mainPLL (
-    .clk_in1_n(BOARD_CLK_N),
-    .clk_in1_p(BOARD_CLK_P),
-    .reset(1'b0),
-    .clk_out1(CLK_200M),
-    .locked(locked)
+wire clk_200m;
+wire mainpll_locked;
+wire rst;
+assign rst = ~mainpll_locked;
+  main_clk inst_main_clk(
+    .clk_200m(clk_200m),        // output clk_200m
+    .reset(1'b0),               // never reset
+    .locked(mainpll_locked),            // output locked
+    .clk_in1_p(BOARD_CLK125M_P),      // input clk_in1_p
+    .clk_in1_n(BOARD_CLK125M_N)       // input clk_in1_n
 );
-assign rst = ~locked;
 //-------------------------------------------
 
 //data source
 //-------------------------------------------
-wire [7:0] count;
-counter_datagen inst_counter_datagen (
-    .clk(CLK_200M),
-    .reset(rst),
-    .count(count)
+wire [7:0] data_test;
+counter_datagen counter_datasource (
+    .clk(clk_200m),
+    .rst(rst),
+    .count(data_test)
 );
 //-------------------------------------------
 
-//hpio tx
+//TX port
 //-------------------------------------------
-high_speed_selectio_wiz_0 TX (
+HPIO_TX inst_hpio_tx (
   .vtc_rdy_bsc4(vtc_rdy_bsc4),                                  // output wire vtc_rdy_bsc4
   .en_vtc_bsc4(en_vtc_bsc4),                                    // input wire en_vtc_bsc4
   .dly_rdy_bsc4(dly_rdy_bsc4),                                  // output wire dly_rdy_bsc4
@@ -68,12 +78,11 @@ high_speed_selectio_wiz_0 TX (
   .data_from_fabric_bg2_pin2_28(data_from_fabric_bg2_pin2_28),  // input wire [7 : 0] data_from_fabric_bg2_pin2_28
   .bg2_pin3_29(bg2_pin3_29)                                    // output wire bg2_pin3_29
 );
-
 //-------------------------------------------
 
-//hpio rx
+//RX port
 //-------------------------------------------
-high_speed_selectio_wiz_1 RX (
+HPIO_RX inst_hpio_rx (
   .fifo_rd_data_valid(fifo_rd_data_valid),                  // output wire fifo_rd_data_valid
   .fifo_rd_clk_21(fifo_rd_clk_21),                          // input wire fifo_rd_clk_21
   .fifo_rd_clk_22(fifo_rd_clk_22),                          // input wire fifo_rd_clk_22
@@ -102,5 +111,6 @@ high_speed_selectio_wiz_1 RX (
   .bg1_pin9_22(bg1_pin9_22),                                // input wire bg1_pin9_22
   .data_to_fabric_bg1_pin9_22(data_to_fabric_bg1_pin9_22)  // output wire [7 : 0] data_to_fabric_bg1_pin9_22
 );
+//-------------------------------------------
 
 endmodule

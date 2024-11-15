@@ -1,13 +1,13 @@
 {
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
-    "xci_name": "clk_wiz_0",
+    "xci_name": "main_clk",
     "component_reference": "xilinx.com:ip:clk_wiz:6.0",
-    "ip_revision": "13",
-    "gen_directory": "../../../../KCU_loopback.gen/sources_1/ip/clk_wiz_0",
+    "ip_revision": "14",
+    "gen_directory": ".",
     "parameters": {
       "component_parameters": {
-        "Component_Name": [ { "value": "clk_wiz_0", "resolve_type": "user", "usage": "all" } ],
+        "Component_Name": [ { "value": "main_clk", "resolve_type": "user", "usage": "all" } ],
         "USER_CLK_FREQ0": [ { "value": "100.0", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "USER_CLK_FREQ1": [ { "value": "100.0", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "USER_CLK_FREQ2": [ { "value": "100.0", "resolve_type": "user", "format": "float", "usage": "all" } ],
@@ -65,8 +65,8 @@
         "CLK_OUT5_USE_FINE_PS_GUI": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "CLK_OUT6_USE_FINE_PS_GUI": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "CLK_OUT7_USE_FINE_PS_GUI": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
-        "PRIMARY_PORT": [ { "value": "clk_in1", "resolve_type": "user", "usage": "all" } ],
-        "CLK_OUT1_PORT": [ { "value": "clk_out1", "resolve_type": "user", "usage": "all" } ],
+        "PRIMARY_PORT": [ { "value": "clk_in1", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
+        "CLK_OUT1_PORT": [ { "value": "clk_200m", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "CLK_OUT2_PORT": [ { "value": "clk_out2", "resolve_type": "user", "usage": "all" } ],
         "CLK_OUT3_PORT": [ { "value": "clk_out3", "resolve_type": "user", "usage": "all" } ],
         "CLK_OUT4_PORT": [ { "value": "clk_out4", "resolve_type": "user", "usage": "all" } ],
@@ -289,7 +289,7 @@
         "C_USE_CLKOUT2_BAR": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_USE_CLKOUT3_BAR": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_USE_CLKOUT4_BAR": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "c_component_name": [ { "value": "clk_wiz_0", "resolve_type": "generated", "usage": "all" } ],
+        "c_component_name": [ { "value": "main_clk", "resolve_type": "generated", "usage": "all" } ],
         "C_PLATFORM": [ { "value": "UNKNOWN", "resolve_type": "generated", "usage": "all" } ],
         "C_USE_FREQ_SYNTH": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_USE_PHASE_ALIGNMENT": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -338,7 +338,7 @@
         "C_INCLK_SUM_ROW2": [ { "value": "no_secondary_input_clock ", "resolve_type": "generated", "usage": "all" } ],
         "C_OUTCLK_SUM_ROW0A": [ { "value": " Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase", "resolve_type": "generated", "usage": "all" } ],
         "C_OUTCLK_SUM_ROW0B": [ { "value": "  Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)", "resolve_type": "generated", "usage": "all" } ],
-        "C_OUTCLK_SUM_ROW1": [ { "value": "clk_out1__200.00000______0.000______50.0______109.241_____96.948", "resolve_type": "generated", "usage": "all" } ],
+        "C_OUTCLK_SUM_ROW1": [ { "value": "clk_200m__200.00000______0.000______50.0______109.241_____96.948", "resolve_type": "generated", "usage": "all" } ],
         "C_OUTCLK_SUM_ROW2": [ { "value": "no_CLK_OUT2_output", "resolve_type": "generated", "usage": "all" } ],
         "C_OUTCLK_SUM_ROW3": [ { "value": "no_CLK_OUT3_output", "resolve_type": "generated", "usage": "all" } ],
         "C_OUTCLK_SUM_ROW4": [ { "value": "no_CLK_OUT4_output", "resolve_type": "generated", "usage": "all" } ],
@@ -470,7 +470,7 @@
         "C_OVERRIDE_PLL": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_PRIMARY_PORT": [ { "value": "clk_in1", "resolve_type": "generated", "usage": "all" } ],
         "C_SECONDARY_PORT": [ { "value": "clk_in2", "resolve_type": "generated", "usage": "all" } ],
-        "C_CLK_OUT1_PORT": [ { "value": "clk_out1", "resolve_type": "generated", "usage": "all" } ],
+        "C_CLK_OUT1_PORT": [ { "value": "clk_200m", "resolve_type": "generated", "usage": "all" } ],
         "C_CLK_OUT2_PORT": [ { "value": "clk_out2", "resolve_type": "generated", "usage": "all" } ],
         "C_CLK_OUT3_PORT": [ { "value": "clk_out3", "resolve_type": "generated", "usage": "all" } ],
         "C_CLK_OUT4_PORT": [ { "value": "clk_out4", "resolve_type": "generated", "usage": "all" } ],
@@ -598,12 +598,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "13" } ],
+        "IPREVISION": [ { "value": "14" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "../../../../KCU_loopback.gen/sources_1/ip/clk_wiz_0" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2023.2" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
         "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
       }
     },
@@ -612,7 +612,7 @@
         "clk_in1_p": [ { "direction": "in", "driver_value": "0" } ],
         "clk_in1_n": [ { "direction": "in", "driver_value": "0" } ],
         "reset": [ { "direction": "in", "driver_value": "0" } ],
-        "clk_out1": [ { "direction": "out" } ],
+        "clk_200m": [ { "direction": "out" } ],
         "locked": [ { "direction": "out" } ]
       },
       "interfaces": {
@@ -658,7 +658,7 @@
             "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
           },
           "port_maps": {
-            "CLK_OUT1": [ { "physical_name": "clk_out1" } ]
+            "CLK_OUT1": [ { "physical_name": "clk_200m" } ]
           }
         }
       }

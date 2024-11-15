@@ -26,8 +26,8 @@ module counter_datagen(
     output reg [7:0] count
 );
 
-always @(posedge clk or posedge reset) begin
-    if (reset) begin
+always @(posedge clk or posedge rst) begin
+    if (rst) begin
         count <= 8'b0;
     end else if (count == 8'hFF) begin
         count <= 8'b0;
