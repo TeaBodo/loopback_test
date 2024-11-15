@@ -52,7 +52,7 @@ counter_datagen inst_counter_datagen (
 
 //hpio tx
 //-------------------------------------------
-high_speed_selectio_wiz_0 HPIO (
+high_speed_selectio_wiz_0 TX (
   .vtc_rdy_bsc4(vtc_rdy_bsc4),                                  // output wire vtc_rdy_bsc4
   .en_vtc_bsc4(en_vtc_bsc4),                                    // input wire en_vtc_bsc4
   .dly_rdy_bsc4(dly_rdy_bsc4),                                  // output wire dly_rdy_bsc4
@@ -69,6 +69,38 @@ high_speed_selectio_wiz_0 HPIO (
   .bg2_pin3_29(bg2_pin3_29)                                    // output wire bg2_pin3_29
 );
 
+//-------------------------------------------
 
+//hpio rx
+//-------------------------------------------
+high_speed_selectio_wiz_1 RX (
+  .fifo_rd_data_valid(fifo_rd_data_valid),                  // output wire fifo_rd_data_valid
+  .fifo_rd_clk_21(fifo_rd_clk_21),                          // input wire fifo_rd_clk_21
+  .fifo_rd_clk_22(fifo_rd_clk_22),                          // input wire fifo_rd_clk_22
+  .fifo_empty_21(fifo_empty_21),                            // output wire fifo_empty_21
+  .fifo_empty_22(fifo_empty_22),                            // output wire fifo_empty_22
+  .vtc_rdy_bsc2(vtc_rdy_bsc2),                              // output wire vtc_rdy_bsc2
+  .en_vtc_bsc2(en_vtc_bsc2),                                // input wire en_vtc_bsc2
+  .vtc_rdy_bsc3(vtc_rdy_bsc3),                              // output wire vtc_rdy_bsc3
+  .en_vtc_bsc3(en_vtc_bsc3),                                // input wire en_vtc_bsc3
+  .vtc_rdy_bsc4(vtc_rdy_bsc4),                              // output wire vtc_rdy_bsc4
+  .en_vtc_bsc4(en_vtc_bsc4),                                // input wire en_vtc_bsc4
+  .dly_rdy_bsc2(dly_rdy_bsc2),                              // output wire dly_rdy_bsc2
+  .dly_rdy_bsc3(dly_rdy_bsc3),                              // output wire dly_rdy_bsc3
+  .dly_rdy_bsc4(dly_rdy_bsc4),                              // output wire dly_rdy_bsc4
+  .rst_seq_done(rst_seq_done),                              // output wire rst_seq_done
+  .shared_pll0_clkoutphy_out(shared_pll0_clkoutphy_out),    // output wire shared_pll0_clkoutphy_out
+  .pll0_clkout0(pll0_clkout0),                              // output wire pll0_clkout0
+  .rst(rst),                                                // input wire rst
+  .clk_p(clk_p),                                            // input wire clk_p
+  .clk_n(clk_n),                                            // input wire clk_n
+  .riu_clk(riu_clk),                                        // input wire riu_clk
+  .pll0_locked(pll0_locked),                                // output wire pll0_locked
+  .bg1_pin0_nc(bg1_pin0_nc),                                // input wire bg1_pin0_nc
+  .bg1_pin8_21(bg1_pin8_21),                                // input wire bg1_pin8_21
+  .data_to_fabric_bg1_pin8_21(data_to_fabric_bg1_pin8_21),  // output wire [7 : 0] data_to_fabric_bg1_pin8_21
+  .bg1_pin9_22(bg1_pin9_22),                                // input wire bg1_pin9_22
+  .data_to_fabric_bg1_pin9_22(data_to_fabric_bg1_pin9_22)  // output wire [7 : 0] data_to_fabric_bg1_pin9_22
+);
 
 endmodule
