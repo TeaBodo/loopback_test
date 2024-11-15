@@ -12,6 +12,7 @@
 *.wcfg # Ignore Waveform Configuration files
 *.wdb  # Ignore Waveform Database files
 *.pb   # Ignore Project Backup files
+*.xml  # Ignore XML files   
 
 loopback/
 
