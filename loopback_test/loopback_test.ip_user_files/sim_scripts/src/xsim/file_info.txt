@@ -1,4 +1,0 @@
-high_speed_selectio_wiz_0_hssio_wiz_top.v,verilog,xil_defaultlib,E:/Xilinx/Vivado/2024.1/bin/KCU105_Tx_1600.gen/sources_1/ip/high_speed_selectio_wiz_0/high_speed_selectio_wiz_0_hssio_wiz_top.v,
-high_speed_selectio_wiz_0_high_speed_selectio_wiz_v3_6_9.v,verilog,xil_defaultlib,E:/Xilinx/Vivado/2024.1/bin/KCU105_Tx_1600.gen/sources_1/ip/high_speed_selectio_wiz_0/high_speed_selectio_wiz_0_high_speed_selectio_wiz_v3_6_9.v,
-high_speed_selectio_wiz_0.v,verilog,xil_defaultlib,E:/Xilinx/Vivado/2024.1/bin/KCU105_Tx_1600.gen/sources_1/ip/high_speed_selectio_wiz_0/sim/high_speed_selectio_wiz_0.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v

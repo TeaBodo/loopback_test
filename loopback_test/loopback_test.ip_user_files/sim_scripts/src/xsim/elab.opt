@@ -1,1 +1,0 @@
---incr --debug typical --relax --mt 2  -L high_speed_selectio_wiz_v3_6_9 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot high_speed_selectio_wiz_0 xil_defaultlib.high_speed_selectio_wiz_0 xil_defaultlib.glbl -log elaborate.log
