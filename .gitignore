@@ -14,7 +14,7 @@
 *.pb   # Ignore Project Backup files
 *.xml  # Ignore XML files   
 
-loopback/
+/loopback/
 
 
 # Ignore Vivado SDK directories
