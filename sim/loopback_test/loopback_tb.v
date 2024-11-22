@@ -29,6 +29,7 @@ reg clk_n;
 reg riu_clk;
 reg clk_200m;
 reg source_rst;
+reg clk_100m;
 //output
 //TX
 wire vtc_rdy_bsc4;
@@ -76,11 +77,16 @@ always begin
     #2.5;
     clk_200m = ~clk_200m;
 end
+always begin
+    #5;
+    clk_100m = ~clk_100m;
+end
 initial begin
     en_vtc_bsc = 1'b0;
     rst = 1'b1;
     riu_clk = 1'b0;
     clk_200m = 1'b0;
+    clk_100m = 1'b0;
     clk_p = 1'b1;
     clk_n = 1'b0;
     source_rst = 1'b1;
@@ -111,9 +117,8 @@ HPIO_TX inst_hpio_tx (
   .rst_seq_done(rst_seq_done),                                  // output wire rst_seq_done
   .shared_pll0_clkoutphy_out(shared_pll0_clkoutphy_out),        // output wire shared_pll0_clkoutphy_out
   .pll0_clkout0(pll0_clkout0),                                  // output wire pll0_clkout0
-  .rst(rst),                                                    // input wire rst
-  .clk_p(clk_p),                                                // input wire clk_p
-  .clk_n(clk_n),                                                // input wire clk_n
+  .rst(rst),
+  .clk(clk_100m),                                                    // input wire rst                                              // input wire clk_n
   .riu_clk(riu_clk),                                            // input wire riu_clk
   .pll0_locked(pll0_locked),                                    // output wire pll0_locked
   .bg2_pin2_28(link_p),                                         // output wire bg2_pin2_28
@@ -148,7 +153,18 @@ always @(clk_p) begin
     link_p_dddd <= link_p_ddd;
     link_n_dddd <= link_n_ddd;
 end
-
+reg link_p_ddddd;
+reg link_n_ddddd;
+always @(clk_p) begin
+    link_p_ddddd <= link_p_dddd;
+    link_n_ddddd <= link_n_dddd;
+end
+reg link_p_dddddd;
+reg link_n_dddddd;
+always @(clk_p) begin
+    link_p_dddddd <= link_p_ddddd;
+    link_n_dddddd <= link_n_ddddd;
+end
 
 
 
@@ -179,9 +195,9 @@ HPIO_RX inst_hpio_rx (
   .riu_clk(riu_clk),                                        // input wire riu_clk
   .pll0_locked(rx_pll0_locked),                                // output wire pll0_locked
   .bg1_pin0_nc(),                                           // input wire bg1_pin0_nc
-  .bg1_pin8_21(link_p_dddd),                                     // input wire bg1_pin8_21
+  .bg1_pin8_21(link_p_dddddd),                                     // input wire bg1_pin8_21
   .data_to_fabric_bg1_pin8_21(data_out_p),  // output wire [7 : 0] data_to_fabric_bg1_pin8_21
-  .bg1_pin9_22(link_n_dddd),                                     // input wire bg1_pin9_22
+  .bg1_pin9_22(link_n_dddddd),                                     // input wire bg1_pin9_22
   .data_to_fabric_bg1_pin9_22(data_out_n)  // output wire [7 : 0] data_to_fabric_bg1_pin9_22
 );
 //-------------------------------------------

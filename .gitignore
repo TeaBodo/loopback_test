@@ -15,7 +15,7 @@
 *.xml  # Ignore XML files   
 
 /loopback/
-
+/bitstream/
 
 # Ignore Vivado SDK directories
 .sdk
