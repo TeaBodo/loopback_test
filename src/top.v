@@ -41,7 +41,7 @@ wire rst;
 wire [7:0] data_test;
 counter_datagen counter_datasource (
     .clk(clk_200m),
-    .rst(rst),
+    .rst(1'b0),
     .count(data_test)
 );
 //-------------------------------------------
@@ -65,7 +65,7 @@ HPIO_TX inst_hpio_tx (
   .rst_seq_done(tx_rst_seq_done),                                  // output wire rst_seq_done
   .shared_pll0_clkoutphy_out(tx_shared_pll0_clkoutphy_out),        // output wire shared_pll0_clkoutphy_out
   .pll0_clkout0(tx_pll0_clkout0),                                  // output wire pll0_clkout0
-  .rst(rst),                                                    // input wire rst
+  .rst(1'b0),                                                    // input wire rst
   .clk(clk_100m),                                                // input wire clk_p                                              // input wire clk_n
   .riu_clk(clk_200m),                                            // input wire riu_clk
   .pll0_locked(tx_pll0_locked),                                    // output wire pll0_locked
@@ -116,7 +116,7 @@ HPIO_RX inst_hpio_rx (
   .rst_seq_done(rx_rst_seq_done),                              // output wire rst_seq_done
   .shared_pll0_clkoutphy_out(rx_shared_pll0_clkoutphy_out),    // output wire shared_pll0_clkoutphy_out
   .pll0_clkout0(rx_pll0_clkout0),                              // output wire pll0_clkout0
-  .rst(rst),                                                // input wire rst
+  .rst(1'b0),                                                // input wire rst
   .clk_p(clk_800m_p),                                            // input wire clk_p
   .clk_n(clk_800m_n),                                            // input wire clk_n
   .riu_clk(clk_200m),                                        // input wire riu_clk
@@ -136,20 +136,24 @@ assign rst = (~main_pll_locked) | (~tx_pll0_locked) | (~rx_pll0_locked);
 
 //enable
 //-------------------------------------------
-always @(posedge clk_200m or posedge rst) begin
-    if (rst) begin
-        tx_en_vtc_bsc <= 1'b0;
-        rx_en_vtc_bsc2 <= 1'b0;
-        rx_en_vtc_bsc3 <= 1'b0;
-        rx_en_vtc_bsc4 <= 1'b0;
-    end 
-    else begin
-        tx_en_vtc_bsc <= 1'b1;
-        rx_en_vtc_bsc2 <= 1'b1;
-        rx_en_vtc_bsc3 <= 1'b1;
-        rx_en_vtc_bsc4 <= 1'b1;
-    end
-end
+// always @(posedge clk_200m or posedge rst) begin
+//     if (rst) begin
+//         tx_en_vtc_bsc <= 1'b0;
+//         rx_en_vtc_bsc2 <= 1'b0;
+//         rx_en_vtc_bsc3 <= 1'b0;
+//         rx_en_vtc_bsc4 <= 1'b0;
+//     end 
+//     else begin
+//         tx_en_vtc_bsc <= 1'b1;
+//         rx_en_vtc_bsc2 <= 1'b1;
+//         rx_en_vtc_bsc3 <= 1'b1;
+//         rx_en_vtc_bsc4 <= 1'b1;
+//     end
+// end
+assign tx_en_vtc_bsc = 1'b1;
+assign rx_en_vtc_bsc2 = 1'b1;
+assign rx_en_vtc_bsc3 = 1'b1;
+assign rx_en_vtc_bsc4 = 1'b1;
 //-------------------------------------------
 
 //probe
