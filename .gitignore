@@ -16,6 +16,7 @@
 
 /loopback/
 /bitstream/
+*.tmp
 
 # Ignore Vivado SDK directories
 .sdk
