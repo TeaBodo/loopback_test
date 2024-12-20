@@ -2,8 +2,8 @@ module top(
     //clock source
     input BOARD_CLK125M_N,
     input BOARD_CLK125M_P,      //low speed clock source, main clock on the KCU105
-    input EXTERNAL_CLK800M_N,
-    input EXTERNAL_CLK800M_P,  // external clock generator connected on the SMAs
+    input EXTERNAL_CLK640M_N,
+    input EXTERNAL_CLK640M_P,  // external clock generator connected on the SMAs
     //TX port
     output TX_N,
     output TX_P,
@@ -15,8 +15,8 @@ module top(
 //-------------------------------------------
 wire clk_640m_p;
 wire clk_640m_n;
-assign clk_640m_p = EXTERNAL_CLK800M_P;
-assign clk_640m_n = EXTERNAL_CLK800M_N;
+assign clk_640m_p = EXTERNAL_CLK640M_P;
+assign clk_640m_n = EXTERNAL_CLK640M_N;
 wire clk_160m;
 wire clk_80m;
 wire main_pll_locked;
