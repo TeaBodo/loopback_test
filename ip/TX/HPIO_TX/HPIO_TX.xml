@@ -10725,18 +10725,34 @@
       <spirit:portMaps>
         <spirit:portMap>
           <spirit:logicalPort>
-            <spirit:name>pin21</spirit:name>
+            <spirit:name>pin23</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
-            <spirit:name>dataout_p_21</spirit:name>
+            <spirit:name>bg1_pin10_clk_p_23</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
-            <spirit:name>pin22</spirit:name>
+            <spirit:name>pin24</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
-            <spirit:name>dataout_n_22</spirit:name>
+            <spirit:name>bg1_pin11_clk_n_24</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>pin28</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>bg2_pin2_data_p_28</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>pin29</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>bg2_pin3_data_n_29</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
@@ -10749,10 +10765,18 @@
       <spirit:portMaps>
         <spirit:portMap>
           <spirit:logicalPort>
-            <spirit:name>fabric_to_ip_21</spirit:name>
+            <spirit:name>fabric_to_ip_23</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
-            <spirit:name>data_from_fabric_dataout_p_21</spirit:name>
+            <spirit:name>data_from_fabric_bg1_pin10_clk_p_23</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>fabric_to_ip_28</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_from_fabric_bg2_pin2_data_p_28</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
@@ -10771,11 +10795,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:14 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e2b6de2b</spirit:value>
+            <spirit:value>9:d553eb2e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10790,11 +10814,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:14 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10808,11 +10832,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:13 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:49 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10823,7 +10847,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:34daf987</spirit:value>
+            <spirit:value>9:2404cbca</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10837,11 +10861,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:50 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10855,11 +10879,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:14 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10870,7 +10894,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10885,11 +10909,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:13 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:49 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10905,11 +10929,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:14 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e2b6de2b</spirit:value>
+            <spirit:value>9:d553eb2e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10925,11 +10949,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:14 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10943,11 +10967,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Dec 20 16:49:14 UTC 2024</spirit:value>
+            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:39bc0362</spirit:value>
+            <spirit:value>9:52aeeb17</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10998,7 +11022,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">1</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -11025,7 +11049,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">1</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -11052,7 +11076,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">1</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -11079,7 +11103,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">1</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -11106,7 +11130,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">1</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -11133,7 +11157,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">1</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -11157,7 +11181,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_DATA_PIN_EN&apos;))) - 1)">1</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -43006,7 +43030,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.vtc_rdy_bsc4" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_EN_BSC4&apos;))=1) and (spirit:decode(id(&apos;PARAM_VALUE.PLL0_RX_EXTERNAL_CLK_TO_DATA&apos;)) != 2))">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.vtc_rdy_bsc4" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_EN_BSC4&apos;))=1) and (spirit:decode(id(&apos;PARAM_VALUE.PLL0_RX_EXTERNAL_CLK_TO_DATA&apos;)) != 2))">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -43029,7 +43053,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.en_vtc_bsc4" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_EN_BSC4&apos;))=1) and (spirit:decode(id(&apos;PARAM_VALUE.PLL0_RX_EXTERNAL_CLK_TO_DATA&apos;)) != 2))">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.en_vtc_bsc4" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_EN_BSC4&apos;))=1) and (spirit:decode(id(&apos;PARAM_VALUE.PLL0_RX_EXTERNAL_CLK_TO_DATA&apos;)) != 2))">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -43474,7 +43498,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.dly_rdy_bsc4" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_EN_BSC4&apos;))=1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.dly_rdy_bsc4" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_EN_BSC4&apos;))=1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -43840,7 +43864,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.pll0_clkout1" xilinx:dependency="((spirit:decode(id(&apos;PARAM_VALUE.ENABLE_PLL0_PLLOUT1&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_PLL_SHARING&apos;))=0))">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.pll0_clkout1" xilinx:dependency="((spirit:decode(id(&apos;PARAM_VALUE.ENABLE_PLL0_PLLOUT1&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_PLL_SHARING&apos;))=0))">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -44161,7 +44185,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.riu_clk" xilinx:dependency="(spirit:decode(id(&apos;PARAM_VALUE.RIU_FROM_PLL&apos;))=0)">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.riu_clk" xilinx:dependency="(spirit:decode(id(&apos;PARAM_VALUE.RIU_FROM_PLL&apos;))=0)">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -44391,7 +44415,7 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
-        <spirit:name>dataout_p_21</spirit:name>
+        <spirit:name>bg1_pin10_clk_p_23</spirit:name>
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:wireTypeDefs>
@@ -44404,7 +44428,7 @@
         </spirit:wire>
       </spirit:port>
       <spirit:port>
-        <spirit:name>data_from_fabric_dataout_p_21</spirit:name>
+        <spirit:name>data_from_fabric_bg1_pin10_clk_p_23</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
@@ -44421,7 +44445,50 @@
         </spirit:wire>
       </spirit:port>
       <spirit:port>
-        <spirit:name>dataout_n_22</spirit:name>
+        <spirit:name>bg1_pin11_clk_n_24</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>bg2_pin2_data_p_28</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_from_fabric_bg2_pin2_data_p_28</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>bg2_pin3_data_n_29</spirit:name>
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:wireTypeDefs>
@@ -44469,11 +44536,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_ENABLE_PLL0_PLLOUT1</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ENABLE_PLL0_PLLOUT1">0</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ENABLE_PLL0_PLLOUT1">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_PLL0_CLKOUT1_DIVIDE</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_CLKOUT1_DIVIDE">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_CLKOUT1_DIVIDE">8</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="REAL">
         <spirit:name>C_PLL0_MMCM_CLKFBOUT_MULT_F</spirit:name>
@@ -44513,7 +44580,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_CLK_FWD_PHASE</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLK_FWD_PHASE">0</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLK_FWD_PHASE">90</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_TX_DATA_PHASE</spirit:name>
@@ -44633,7 +44700,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_EN_BSC4</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_EN_BSC4">0</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_EN_BSC4">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_EN_BSC5</spirit:name>
@@ -44653,11 +44720,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_PIN_INFO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PIN_INFO">21 {nibble 3 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name dataout_p loc G9} 22 {nibble 3 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name dataout_n loc F9}</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PIN_INFO">23 {nibble 3 dir TX sig_type DIFF data_strb {Clk Fwd} data_strb_org {Clk Fwd} sig_name bg1_pin10_clk_p loc D24} 24 {nibble 3 dir TX sig_type DIFF data_strb {Clk Fwd} data_strb_org {Clk Fwd} sig_name bg1_pin11_clk_n loc C24} 28 {nibble 4 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name bg2_pin2_data_p loc E22} 29 {nibble 4 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name bg2_pin3_data_n loc E23}</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_ALL_EN_PIN_INFO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ALL_EN_PIN_INFO">21 {nibble 3 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name dataout_p loc G9} 22 {nibble 3 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name dataout_n loc F9}</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ALL_EN_PIN_INFO">23 {nibble 3 dir TX sig_type DIFF data_strb {Clk Fwd} data_strb_org {Clk Fwd} sig_name bg1_pin10_clk_p loc D24} 24 {nibble 3 dir TX sig_type DIFF data_strb {Clk Fwd} data_strb_org {Clk Fwd} sig_name bg1_pin11_clk_n loc C24} 28 {nibble 4 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name bg2_pin2_data_p loc E22} 29 {nibble 4 dir TX sig_type DIFF data_strb Data data_strb_org Data sig_name bg2_pin3_data_n loc E23}</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_CLK_FWD</spirit:name>
@@ -45945,7 +46012,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_BANK</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BANK">66</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BANK">67</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_EXDES_BANK</spirit:name>
@@ -45985,7 +46052,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_BS0_INFO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BS0_INFO">0 {name bg0_pin0_nc loc F8} 1 {name bg0_pin6_nc loc B10} 2 {name bg1_pin0_nc loc L8} 3 {name bg1_pin6_nc loc K10} 4 {name bg2_pin0_nc loc H11} 5 {name bg2_pin6_nc loc L13} 6 {name bg3_pin0_nc loc E11} 7 {name bg3_pin6_nc loc F13}</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BS0_INFO">0 {name bg0_pin0_nc loc F27} 1 {name bg0_pin6_nc loc B29} 2 {name bg1_pin0_nc loc E26} 3 {name bg1_pin6_nc loc B24} 4 {name bg2_pin0_nc loc D23} 5 {name bg2_pin6_nc loc C21} 6 {name bg3_pin0_nc loc G24} 7 {name bg3_pin6_nc loc G20}</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_INCLK_LOC</spirit:name>
@@ -45997,7 +46064,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_GC_LOC</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_GC_LOC">21 {name IO_L11P_T1U_N8_GC_66 loc G9} 23 {name IO_L12P_T1U_N10_GC_66 loc G10} 28 {name IO_L14P_T2L_N2_GC_66 loc H12}</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_GC_LOC">21 {name IO_L11P_T1U_N8_GC_67 loc E25} 23 {name IO_L12P_T1U_N10_GC_67 loc D24} 28 {name IO_L14P_T2L_N2_GC_67 loc E22}</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_SIM_DEVICE</spirit:name>
@@ -46013,11 +46080,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_CLK_FWD_ENABLE</spirit:name>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLK_FWD_ENABLE" spirit:bitStringLength="52">0000000000000000000000000000000000000000000000000000</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLK_FWD_ENABLE" spirit:bitStringLength="52">0b0000000000000000000000000001100000000000000000000000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_CLK_FWD_BITSLICE_NO</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLK_FWD_BITSLICE_NO">0</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLK_FWD_BITSLICE_NO">23</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_CLKIN_DIFF_EN</spirit:name>
@@ -46025,7 +46092,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_TX_BITSLICE_EN</spirit:name>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_TX_BITSLICE_EN" spirit:bitStringLength="52">0b0000000000000000000000000000001000000000000000000000</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_TX_BITSLICE_EN" spirit:bitStringLength="52">0b0000000000000000000000010000100000000000000000000000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_BIDIR_BITSLICE_EN</spirit:name>
@@ -46033,7 +46100,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_DIFF_EN</spirit:name>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIFF_EN" spirit:bitStringLength="52">0b0000000000000000000000000000011000000000000000000000</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIFF_EN" spirit:bitStringLength="52">0b0000000000000000000000110001100000000000000000000000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_RX_PIN_EN</spirit:name>
@@ -46049,7 +46116,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_DATA_PIN_EN</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DATA_PIN_EN">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DATA_PIN_EN">2</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_PLL_SHARING</spirit:name>
@@ -46057,7 +46124,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_BS_INIT_VAL</spirit:name>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BS_INIT_VAL" spirit:bitStringLength="52">0b0000000000000000000000000000010000000000000000000000</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BS_INIT_VAL" spirit:bitStringLength="52">0b0000000000000000000000100001000000000000000000000000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_INV_RX_CLK</spirit:name>
@@ -46116,10 +46183,6 @@
       <spirit:enumeration>LVDCI_18</spirit:enumeration>
       <spirit:enumeration>SSTL18_I</spirit:enumeration>
       <spirit:enumeration>SSTL18_I_DCI</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_list_0c04cb16</spirit:name>
-      <spirit:enumeration>1000.00</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choice_list_14e37531</spirit:name>
@@ -46181,10 +46244,132 @@
       <spirit:enumeration>Clk Fwd</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
-      <spirit:name>choice_list_76ae9d74</spirit:name>
-      <spirit:enumeration>Data</spirit:enumeration>
-      <spirit:enumeration>Clk Fwd</spirit:enumeration>
-      <spirit:enumeration>Input Clock</spirit:enumeration>
+      <spirit:name>choice_list_7065a963</spirit:name>
+      <spirit:enumeration>200.000</spirit:enumeration>
+      <spirit:enumeration>160.000</spirit:enumeration>
+      <spirit:enumeration>133.333</spirit:enumeration>
+      <spirit:enumeration>114.286</spirit:enumeration>
+      <spirit:enumeration>100.000</spirit:enumeration>
+      <spirit:enumeration>88.889</spirit:enumeration>
+      <spirit:enumeration>80.000</spirit:enumeration>
+      <spirit:enumeration>72.727</spirit:enumeration>
+      <spirit:enumeration>66.667</spirit:enumeration>
+      <spirit:enumeration>61.538</spirit:enumeration>
+      <spirit:enumeration>57.143</spirit:enumeration>
+      <spirit:enumeration>53.333</spirit:enumeration>
+      <spirit:enumeration>50.000</spirit:enumeration>
+      <spirit:enumeration>47.059</spirit:enumeration>
+      <spirit:enumeration>44.444</spirit:enumeration>
+      <spirit:enumeration>42.105</spirit:enumeration>
+      <spirit:enumeration>40.000</spirit:enumeration>
+      <spirit:enumeration>38.095</spirit:enumeration>
+      <spirit:enumeration>36.364</spirit:enumeration>
+      <spirit:enumeration>34.783</spirit:enumeration>
+      <spirit:enumeration>33.333</spirit:enumeration>
+      <spirit:enumeration>32.000</spirit:enumeration>
+      <spirit:enumeration>30.769</spirit:enumeration>
+      <spirit:enumeration>29.630</spirit:enumeration>
+      <spirit:enumeration>28.571</spirit:enumeration>
+      <spirit:enumeration>27.586</spirit:enumeration>
+      <spirit:enumeration>26.667</spirit:enumeration>
+      <spirit:enumeration>25.806</spirit:enumeration>
+      <spirit:enumeration>25.000</spirit:enumeration>
+      <spirit:enumeration>24.242</spirit:enumeration>
+      <spirit:enumeration>23.529</spirit:enumeration>
+      <spirit:enumeration>22.857</spirit:enumeration>
+      <spirit:enumeration>22.222</spirit:enumeration>
+      <spirit:enumeration>21.622</spirit:enumeration>
+      <spirit:enumeration>21.053</spirit:enumeration>
+      <spirit:enumeration>20.513</spirit:enumeration>
+      <spirit:enumeration>20.000</spirit:enumeration>
+      <spirit:enumeration>19.512</spirit:enumeration>
+      <spirit:enumeration>19.048</spirit:enumeration>
+      <spirit:enumeration>18.605</spirit:enumeration>
+      <spirit:enumeration>18.182</spirit:enumeration>
+      <spirit:enumeration>17.778</spirit:enumeration>
+      <spirit:enumeration>17.391</spirit:enumeration>
+      <spirit:enumeration>17.021</spirit:enumeration>
+      <spirit:enumeration>16.667</spirit:enumeration>
+      <spirit:enumeration>16.327</spirit:enumeration>
+      <spirit:enumeration>16.000</spirit:enumeration>
+      <spirit:enumeration>15.686</spirit:enumeration>
+      <spirit:enumeration>15.385</spirit:enumeration>
+      <spirit:enumeration>15.094</spirit:enumeration>
+      <spirit:enumeration>14.815</spirit:enumeration>
+      <spirit:enumeration>14.545</spirit:enumeration>
+      <spirit:enumeration>14.286</spirit:enumeration>
+      <spirit:enumeration>14.035</spirit:enumeration>
+      <spirit:enumeration>13.793</spirit:enumeration>
+      <spirit:enumeration>13.559</spirit:enumeration>
+      <spirit:enumeration>13.333</spirit:enumeration>
+      <spirit:enumeration>13.115</spirit:enumeration>
+      <spirit:enumeration>12.903</spirit:enumeration>
+      <spirit:enumeration>12.698</spirit:enumeration>
+      <spirit:enumeration>12.500</spirit:enumeration>
+      <spirit:enumeration>12.308</spirit:enumeration>
+      <spirit:enumeration>12.121</spirit:enumeration>
+      <spirit:enumeration>11.940</spirit:enumeration>
+      <spirit:enumeration>11.765</spirit:enumeration>
+      <spirit:enumeration>11.594</spirit:enumeration>
+      <spirit:enumeration>11.429</spirit:enumeration>
+      <spirit:enumeration>11.268</spirit:enumeration>
+      <spirit:enumeration>11.111</spirit:enumeration>
+      <spirit:enumeration>10.959</spirit:enumeration>
+      <spirit:enumeration>10.811</spirit:enumeration>
+      <spirit:enumeration>10.667</spirit:enumeration>
+      <spirit:enumeration>10.526</spirit:enumeration>
+      <spirit:enumeration>10.390</spirit:enumeration>
+      <spirit:enumeration>10.256</spirit:enumeration>
+      <spirit:enumeration>10.127</spirit:enumeration>
+      <spirit:enumeration>10.000</spirit:enumeration>
+      <spirit:enumeration>9.877</spirit:enumeration>
+      <spirit:enumeration>9.756</spirit:enumeration>
+      <spirit:enumeration>9.639</spirit:enumeration>
+      <spirit:enumeration>9.524</spirit:enumeration>
+      <spirit:enumeration>9.412</spirit:enumeration>
+      <spirit:enumeration>9.302</spirit:enumeration>
+      <spirit:enumeration>9.195</spirit:enumeration>
+      <spirit:enumeration>9.091</spirit:enumeration>
+      <spirit:enumeration>8.989</spirit:enumeration>
+      <spirit:enumeration>8.889</spirit:enumeration>
+      <spirit:enumeration>8.791</spirit:enumeration>
+      <spirit:enumeration>8.696</spirit:enumeration>
+      <spirit:enumeration>8.602</spirit:enumeration>
+      <spirit:enumeration>8.511</spirit:enumeration>
+      <spirit:enumeration>8.421</spirit:enumeration>
+      <spirit:enumeration>8.333</spirit:enumeration>
+      <spirit:enumeration>8.247</spirit:enumeration>
+      <spirit:enumeration>8.163</spirit:enumeration>
+      <spirit:enumeration>8.081</spirit:enumeration>
+      <spirit:enumeration>8.000</spirit:enumeration>
+      <spirit:enumeration>7.921</spirit:enumeration>
+      <spirit:enumeration>7.843</spirit:enumeration>
+      <spirit:enumeration>7.767</spirit:enumeration>
+      <spirit:enumeration>7.692</spirit:enumeration>
+      <spirit:enumeration>7.619</spirit:enumeration>
+      <spirit:enumeration>7.547</spirit:enumeration>
+      <spirit:enumeration>7.477</spirit:enumeration>
+      <spirit:enumeration>7.407</spirit:enumeration>
+      <spirit:enumeration>7.339</spirit:enumeration>
+      <spirit:enumeration>7.273</spirit:enumeration>
+      <spirit:enumeration>7.207</spirit:enumeration>
+      <spirit:enumeration>7.143</spirit:enumeration>
+      <spirit:enumeration>7.080</spirit:enumeration>
+      <spirit:enumeration>7.018</spirit:enumeration>
+      <spirit:enumeration>6.957</spirit:enumeration>
+      <spirit:enumeration>6.897</spirit:enumeration>
+      <spirit:enumeration>6.838</spirit:enumeration>
+      <spirit:enumeration>6.780</spirit:enumeration>
+      <spirit:enumeration>6.723</spirit:enumeration>
+      <spirit:enumeration>6.667</spirit:enumeration>
+      <spirit:enumeration>6.612</spirit:enumeration>
+      <spirit:enumeration>6.557</spirit:enumeration>
+      <spirit:enumeration>6.504</spirit:enumeration>
+      <spirit:enumeration>6.452</spirit:enumeration>
+      <spirit:enumeration>6.400</spirit:enumeration>
+      <spirit:enumeration>6.349</spirit:enumeration>
+      <spirit:enumeration>6.299</spirit:enumeration>
+      <spirit:enumeration>6.250</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choice_list_8af5a703</spirit:name>
@@ -46274,6 +46459,13 @@
       <spirit:enumeration>4</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
+      <spirit:name>choice_pairs_04260eb3</spirit:name>
+      <spirit:enumeration spirit:text="Data">Data</spirit:enumeration>
+      <spirit:enumeration spirit:text="Input Clock">Input Clock</spirit:enumeration>
+      <spirit:enumeration spirit:text="Strobe/Clock">Strobe</spirit:enumeration>
+      <spirit:enumeration spirit:text="Clk Fwd">Clk Fwd</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
       <spirit:name>choice_pairs_1bcffd76</spirit:name>
       <spirit:enumeration spirit:text="TX_ONLY">0</spirit:enumeration>
       <spirit:enumeration spirit:text="RX_ONLY">1</spirit:enumeration>
@@ -46284,17 +46476,6 @@
       <spirit:name>choice_pairs_2e905e41</spirit:name>
       <spirit:enumeration spirit:text="None">NONE</spirit:enumeration>
       <spirit:enumeration spirit:text="TX">TX</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_pairs_386eb82c</spirit:name>
-      <spirit:enumeration spirit:text="Data">Data</spirit:enumeration>
-      <spirit:enumeration spirit:text="Strobe/Clock">Strobe</spirit:enumeration>
-      <spirit:enumeration spirit:text="Strobe/Clock_P">Strobe_P</spirit:enumeration>
-      <spirit:enumeration spirit:text="Strobe/Clock_N">Strobe_N</spirit:enumeration>
-      <spirit:enumeration spirit:text="INV_Strobe/Clock_P">INV_Strobe_P</spirit:enumeration>
-      <spirit:enumeration spirit:text="INV_Strobe/Clock_N">INV_Strobe_N</spirit:enumeration>
-      <spirit:enumeration spirit:text="Clk Fwd">Clk Fwd</spirit:enumeration>
-      <spirit:enumeration spirit:text="Input Clock">Input Clock</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choice_pairs_3c2d3ec7</spirit:name>
@@ -46431,18 +46612,6 @@
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>HPIO_TX_stub.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>HPIO_TX_stub.vhdl</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>HPIO_TX_sim_netlist.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
@@ -46454,6 +46623,18 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
         <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>HPIO_TX_stub.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>HPIO_TX_stub.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
@@ -46547,7 +46728,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PLL_LOCS</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.PLL_LOCS" spirit:order="12">PLLE3_ADV_X1Y4 PLLE3_ADV_X1Y5</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.PLL_LOCS" spirit:order="12">PLLE3_ADV_X1Y6 PLLE3_ADV_X1Y7</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>TEMPLATE</spirit:name>
@@ -46642,24 +46823,24 @@
     <spirit:parameter>
       <spirit:name>RIU_FROM_PLL</spirit:name>
       <spirit:displayName>Generate RIU Clock from PLL</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.RIU_FROM_PLL" spirit:choiceRef="choice_pairs_b98bf275" spirit:order="24">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.RIU_FROM_PLL" spirit:choiceRef="choice_pairs_b98bf275" spirit:order="24">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>ENABLE_PLL0_PLLOUT1</spirit:name>
       <spirit:displayName>Enable PLL CLKOUT1</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_PLL0_PLLOUT1" spirit:choiceRef="choice_pairs_b98bf275" spirit:order="25">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_PLL0_PLLOUT1" spirit:choiceRef="choice_pairs_b98bf275" spirit:order="25">1</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.ENABLE_PLL0_PLLOUT1">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PLL0_PLLOUT1</spirit:name>
       <spirit:displayName>PLL CLKOUT1</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_PLLOUT1" spirit:choiceRef="choice_list_0c04cb16" spirit:order="26">1000.00</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.PLL0_PLLOUT1">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_PLLOUT1" spirit:choiceRef="choice_list_7065a963" spirit:order="26">100.000</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>EN_IBUF_CLKOUT</spirit:name>
@@ -46753,7 +46934,7 @@
     <spirit:parameter>
       <spirit:name>CLK_FWD_PHASE</spirit:name>
       <spirit:displayName>Clock Forward Phase</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CLK_FWD_PHASE" spirit:choiceRef="choice_list_598304d0" spirit:order="37">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CLK_FWD_PHASE" spirit:choiceRef="choice_list_598304d0" spirit:order="37">90</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>TX_DATA_PHASE</spirit:name>
@@ -46770,7 +46951,7 @@
     <spirit:parameter>
       <spirit:name>BANK</spirit:name>
       <spirit:displayName>Bank</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BANK" spirit:choiceRef="choice_list_e74214d2" spirit:order="39">66_(HP)</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BANK" spirit:choiceRef="choice_list_e74214d2" spirit:order="39">67_(HP)</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DIFFERENTIAL_IO_STD</spirit:name>
@@ -47145,7 +47326,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN0_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN0_LOC" spirit:order="82">F8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN0_LOC" spirit:order="82">F27</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47156,7 +47337,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN1_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN1_LOC" spirit:order="83">E8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN1_LOC" spirit:order="83">E27</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47167,7 +47348,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN2_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN2_LOC" spirit:order="84">B9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN2_LOC" spirit:order="84">C27</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47178,7 +47359,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN3_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN3_LOC" spirit:order="85">A9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN3_LOC" spirit:order="85">B27</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47189,7 +47370,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN4_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN4_LOC" spirit:order="86">D8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN4_LOC" spirit:order="86">E28</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47200,7 +47381,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN5_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN5_LOC" spirit:order="87">C8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN5_LOC" spirit:order="87">D29</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47211,7 +47392,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN6_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN6_LOC" spirit:order="88">B10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN6_LOC" spirit:order="88">B29</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47222,7 +47403,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN7_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN7_LOC" spirit:order="89">A10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN7_LOC" spirit:order="89">A29</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47233,7 +47414,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN8_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN8_LOC" spirit:order="90">D9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN8_LOC" spirit:order="90">D28</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47244,7 +47425,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN9_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN9_LOC" spirit:order="91">C9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN9_LOC" spirit:order="91">C28</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47255,7 +47436,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN10_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN10_LOC" spirit:order="92">E10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN10_LOC" spirit:order="92">A27</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47266,7 +47447,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN11_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN11_LOC" spirit:order="93">D10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN11_LOC" spirit:order="93">A28</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47277,7 +47458,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN12_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN12_LOC" spirit:order="94">A8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN12_LOC" spirit:order="94">C29</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47288,7 +47469,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN0_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN0_NAME" spirit:order="95">IO_L1P_T0L_N0_DBC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN0_NAME" spirit:order="95">IO_L1P_T0L_N0_DBC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47299,7 +47480,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN1_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN1_NAME" spirit:order="96">IO_L1N_T0L_N1_DBC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN1_NAME" spirit:order="96">IO_L1N_T0L_N1_DBC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47310,7 +47491,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN2_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN2_NAME" spirit:order="97">IO_L2P_T0L_N2_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN2_NAME" spirit:order="97">IO_L2P_T0L_N2_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47321,7 +47502,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN3_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN3_NAME" spirit:order="98">IO_L2N_T0L_N3_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN3_NAME" spirit:order="98">IO_L2N_T0L_N3_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47332,7 +47513,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN4_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN4_NAME" spirit:order="99">IO_L3P_T0L_N4_AD15P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN4_NAME" spirit:order="99">IO_L3P_T0L_N4_AD15P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47343,7 +47524,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN5_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN5_NAME" spirit:order="100">IO_L3N_T0L_N5_AD15N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN5_NAME" spirit:order="100">IO_L3N_T0L_N5_AD15N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47354,7 +47535,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN6_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN6_NAME" spirit:order="101">IO_L4P_T0U_N6_DBC_AD7P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN6_NAME" spirit:order="101">IO_L4P_T0U_N6_DBC_AD7P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47365,7 +47546,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN7_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN7_NAME" spirit:order="102">IO_L4N_T0U_N7_DBC_AD7N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN7_NAME" spirit:order="102">IO_L4N_T0U_N7_DBC_AD7N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47376,7 +47557,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN8_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN8_NAME" spirit:order="103">IO_L5P_T0U_N8_AD14P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN8_NAME" spirit:order="103">IO_L5P_T0U_N8_AD14P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47387,7 +47568,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN9_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN9_NAME" spirit:order="104">IO_L5N_T0U_N9_AD14N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN9_NAME" spirit:order="104">IO_L5N_T0U_N9_AD14N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47398,7 +47579,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN10_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN10_NAME" spirit:order="105">IO_L6P_T0U_N10_AD6P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN10_NAME" spirit:order="105">IO_L6P_T0U_N10_AD6P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47409,7 +47590,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN11_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN11_NAME" spirit:order="106">IO_L6N_T0U_N11_AD6N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN11_NAME" spirit:order="106">IO_L6N_T0U_N11_AD6N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -47420,7 +47601,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE0_PIN12_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN12_NAME" spirit:order="107">IO_T0U_N12_VRP_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE0_PIN12_NAME" spirit:order="107">IO_T0U_N12_VRP_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48005,12 +48186,12 @@
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE1_PIN8</spirit:name>
       <spirit:displayName>check box9</spirit:displayName>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN8" spirit:order="168">true</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN8" spirit:order="168">false</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE1_PIN9</spirit:name>
       <spirit:displayName>check box10</spirit:displayName>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN9" spirit:order="169">true</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN9" spirit:order="169">false</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48022,12 +48203,19 @@
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE1_PIN10</spirit:name>
       <spirit:displayName>check box11</spirit:displayName>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN10" spirit:order="170">FALSE</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN10" spirit:order="170">true</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE1_PIN11</spirit:name>
       <spirit:displayName>check box12</spirit:displayName>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN11" spirit:order="171">FALSE</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE1_PIN11" spirit:order="171">true</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.ENABLE_BYTE1_PIN11">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE1_PIN12</spirit:name>
@@ -48134,6 +48322,13 @@
       <spirit:name>BYTE1_PIN8_BUS_DIR</spirit:name>
       <spirit:displayName>bus dir9</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_BUS_DIR" spirit:choiceRef="choice_list_9793988b" spirit:order="181">TX</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN8_BUS_DIR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN9_BUS_DIR</spirit:name>
@@ -48150,19 +48345,12 @@
     <spirit:parameter>
       <spirit:name>BYTE1_PIN10_BUS_DIR</spirit:name>
       <spirit:displayName>bus dir11</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_BUS_DIR" spirit:choiceRef="choice_pairs_81ef286a" spirit:order="183">RX</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN10_BUS_DIR">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_BUS_DIR" spirit:choiceRef="choice_list_9793988b" spirit:order="183">TX</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN11_BUS_DIR</spirit:name>
       <spirit:displayName>bus dir12</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_BUS_DIR" spirit:choiceRef="choice_pairs_81ef286a" spirit:order="184">RX</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_BUS_DIR" spirit:choiceRef="choice_pairs_81ef286a" spirit:order="184">TX</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48283,6 +48471,13 @@
       <spirit:name>BYTE1_PIN8_SIG_TYPE</spirit:name>
       <spirit:displayName>Bus Sig Type9</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_SIG_TYPE" spirit:choiceRef="choice_pairs_3c2d3ec7" spirit:order="194">DIFF</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN8_SIG_TYPE">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN9_SIG_TYPE</spirit:name>
@@ -48299,19 +48494,12 @@
     <spirit:parameter>
       <spirit:name>BYTE1_PIN10_SIG_TYPE</spirit:name>
       <spirit:displayName>Bus Sig Type11</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_SIG_TYPE" spirit:choiceRef="choice_pairs_f8ef0539" spirit:order="196">SINGLE</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN10_SIG_TYPE">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_SIG_TYPE" spirit:choiceRef="choice_pairs_3c2d3ec7" spirit:order="196">DIFF</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN11_SIG_TYPE</spirit:name>
       <spirit:displayName>Bus Sig Type12</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_SIG_TYPE" spirit:choiceRef="choice_pairs_f8ef0539" spirit:order="197">SINGLE</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_SIG_TYPE" spirit:choiceRef="choice_pairs_f8ef0539" spirit:order="197">DIFF</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48432,6 +48620,13 @@
       <spirit:name>BYTE1_PIN8_DATA_STROBE</spirit:name>
       <spirit:displayName>Data Strobe21</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_DATA_STROBE" spirit:choiceRef="choice_list_568bd184" spirit:order="207">Data</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN8_DATA_STROBE">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN9_DATA_STROBE</spirit:name>
@@ -48448,19 +48643,12 @@
     <spirit:parameter>
       <spirit:name>BYTE1_PIN10_DATA_STROBE</spirit:name>
       <spirit:displayName>Data Strobe23</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_DATA_STROBE" spirit:choiceRef="choice_list_76ae9d74" spirit:order="209">Data</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN10_DATA_STROBE">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_DATA_STROBE" spirit:choiceRef="choice_list_568bd184" spirit:order="209">Clk Fwd</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN11_DATA_STROBE</spirit:name>
       <spirit:displayName>Data Strobe24</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_DATA_STROBE" spirit:choiceRef="choice_list_76ae9d74" spirit:order="210">Data</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_DATA_STROBE" spirit:choiceRef="choice_list_6b4993e2" spirit:order="210">Clk Fwd</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48572,32 +48760,32 @@
     <spirit:parameter>
       <spirit:name>BYTE1_PIN8_SIGNAL_NAME</spirit:name>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_SIGNAL_NAME" spirit:order="220">dataout_p</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN8_SIGNAL_NAME">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN9_SIGNAL_NAME</spirit:name>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN9_SIGNAL_NAME" spirit:order="221">dataout_n</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN9_SIGNAL_NAME">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN10_SIGNAL_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_SIGNAL_NAME" spirit:order="222">bg1_pin10</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN10_SIGNAL_NAME">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_SIGNAL_NAME" spirit:order="222">bg1_pin10_clk_p</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN11_SIGNAL_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_SIGNAL_NAME" spirit:order="223">bg1_pin11</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN11_SIGNAL_NAME">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_SIGNAL_NAME" spirit:order="223">bg1_pin11_clk_n</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN12_SIGNAL_NAME</spirit:name>
@@ -48612,7 +48800,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN0_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN0_LOC" spirit:order="225">L8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN0_LOC" spirit:order="225">E26</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48623,7 +48811,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN1_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN1_LOC" spirit:order="226">K8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN1_LOC" spirit:order="226">D26</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48634,7 +48822,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN2_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN2_LOC" spirit:order="227">J9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN2_LOC" spirit:order="227">B25</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48645,7 +48833,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN3_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN3_LOC" spirit:order="228">H9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN3_LOC" spirit:order="228">A25</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48656,7 +48844,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN4_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN4_LOC" spirit:order="229">J8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN4_LOC" spirit:order="229">C26</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48667,7 +48855,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN5_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN5_LOC" spirit:order="230">H8</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN5_LOC" spirit:order="230">B26</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48678,7 +48866,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN6_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN6_LOC" spirit:order="231">K10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN6_LOC" spirit:order="231">B24</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48689,7 +48877,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN7_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN7_LOC" spirit:order="232">J10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN7_LOC" spirit:order="232">A24</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48700,7 +48888,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN8_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_LOC" spirit:order="233">G9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_LOC" spirit:order="233">E25</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48711,7 +48899,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN9_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN9_LOC" spirit:order="234">F9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN9_LOC" spirit:order="234">D25</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48722,7 +48910,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN10_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_LOC" spirit:order="235">G10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_LOC" spirit:order="235">D24</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48733,7 +48921,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN11_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_LOC" spirit:order="236">F10</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_LOC" spirit:order="236">C24</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48744,7 +48932,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN12_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN12_LOC" spirit:order="237">L9</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN12_LOC" spirit:order="237">A23</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48755,7 +48943,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN0_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN0_NAME" spirit:order="238">IO_L7P_T1L_N0_QBC_AD13P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN0_NAME" spirit:order="238">IO_L7P_T1L_N0_QBC_AD13P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48766,7 +48954,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN1_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN1_NAME" spirit:order="239">IO_L7N_T1L_N1_QBC_AD13N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN1_NAME" spirit:order="239">IO_L7N_T1L_N1_QBC_AD13N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48777,7 +48965,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN2_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN2_NAME" spirit:order="240">IO_L8P_T1L_N2_AD5P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN2_NAME" spirit:order="240">IO_L8P_T1L_N2_AD5P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48788,7 +48976,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN3_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN3_NAME" spirit:order="241">IO_L8N_T1L_N3_AD5N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN3_NAME" spirit:order="241">IO_L8N_T1L_N3_AD5N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48799,7 +48987,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN4_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN4_NAME" spirit:order="242">IO_L9P_T1L_N4_AD12P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN4_NAME" spirit:order="242">IO_L9P_T1L_N4_AD12P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48810,7 +48998,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN5_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN5_NAME" spirit:order="243">IO_L9N_T1L_N5_AD12N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN5_NAME" spirit:order="243">IO_L9N_T1L_N5_AD12N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48821,7 +49009,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN6_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN6_NAME" spirit:order="244">IO_L10P_T1U_N6_QBC_AD4P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN6_NAME" spirit:order="244">IO_L10P_T1U_N6_QBC_AD4P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48832,7 +49020,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN7_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN7_NAME" spirit:order="245">IO_L10N_T1U_N7_QBC_AD4N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN7_NAME" spirit:order="245">IO_L10N_T1U_N7_QBC_AD4N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48843,7 +49031,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN8_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_NAME" spirit:order="246">IO_L11P_T1U_N8_GC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_NAME" spirit:order="246">IO_L11P_T1U_N8_GC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48854,7 +49042,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN9_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN9_NAME" spirit:order="247">IO_L11N_T1U_N9_GC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN9_NAME" spirit:order="247">IO_L11N_T1U_N9_GC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48865,7 +49053,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN10_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_NAME" spirit:order="248">IO_L12P_T1U_N10_GC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_NAME" spirit:order="248">IO_L12P_T1U_N10_GC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48876,7 +49064,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN11_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_NAME" spirit:order="249">IO_L12N_T1U_N11_GC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_NAME" spirit:order="249">IO_L12N_T1U_N11_GC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48887,7 +49075,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN12_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN12_NAME" spirit:order="250">IO_T1U_N12_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN12_NAME" spirit:order="250">IO_T1U_N12_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48904,17 +49092,24 @@
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE2_PIN1</spirit:name>
       <spirit:displayName>check box2</spirit:displayName>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE2_PIN1" spirit:order="252">FALSE</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE2_PIN1" spirit:order="252">false</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.ENABLE_BYTE2_PIN1">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE2_PIN2</spirit:name>
       <spirit:displayName>check box3</spirit:displayName>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE2_PIN2" spirit:order="253">false</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE2_PIN2" spirit:order="253">true</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>ENABLE_BYTE2_PIN3</spirit:name>
       <spirit:displayName>check box4</spirit:displayName>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE2_PIN3" spirit:order="254">false</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BYTE2_PIN3" spirit:order="254">true</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48983,7 +49178,7 @@
     <spirit:parameter>
       <spirit:name>BYTE2_PIN1_BUS_DIR</spirit:name>
       <spirit:displayName>bus dir2</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_BUS_DIR" spirit:choiceRef="choice_pairs_81ef286a" spirit:order="265">RX</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_BUS_DIR" spirit:choiceRef="choice_pairs_81ef286a" spirit:order="265">TX</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -48996,13 +49191,6 @@
       <spirit:name>BYTE2_PIN2_BUS_DIR</spirit:name>
       <spirit:displayName>bus dir3</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_BUS_DIR" spirit:choiceRef="choice_list_9793988b" spirit:order="266">TX</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE2_PIN2_BUS_DIR">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN3_BUS_DIR</spirit:name>
@@ -49127,7 +49315,7 @@
     <spirit:parameter>
       <spirit:name>BYTE2_PIN0_SIG_TYPE</spirit:name>
       <spirit:displayName>Bus Sig Type1</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_SIG_TYPE" spirit:choiceRef="choice_pairs_3c2d3ec7" spirit:order="277">SINGLE</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_SIG_TYPE" spirit:choiceRef="choice_pairs_3c2d3ec7" spirit:order="277">DIFF</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49139,7 +49327,7 @@
     <spirit:parameter>
       <spirit:name>BYTE2_PIN1_SIG_TYPE</spirit:name>
       <spirit:displayName>Bus Sig Type2</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_SIG_TYPE" spirit:choiceRef="choice_pairs_f8ef0539" spirit:order="278">SINGLE</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_SIG_TYPE" spirit:choiceRef="choice_pairs_f8ef0539" spirit:order="278">DIFF</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49152,13 +49340,6 @@
       <spirit:name>BYTE2_PIN2_SIG_TYPE</spirit:name>
       <spirit:displayName>Bus Sig Type3</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_SIG_TYPE" spirit:choiceRef="choice_pairs_3c2d3ec7" spirit:order="279">DIFF</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE2_PIN2_SIG_TYPE">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN3_SIG_TYPE</spirit:name>
@@ -49295,7 +49476,7 @@
     <spirit:parameter>
       <spirit:name>BYTE2_PIN1_DATA_STROBE</spirit:name>
       <spirit:displayName>Data Strobe27</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_DATA_STROBE" spirit:choiceRef="choice_pairs_386eb82c" spirit:order="291">Data</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_DATA_STROBE" spirit:choiceRef="choice_pairs_04260eb3" spirit:order="291">Data</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49308,13 +49489,6 @@
       <spirit:name>BYTE2_PIN2_DATA_STROBE</spirit:name>
       <spirit:displayName>Data Strobe28</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_DATA_STROBE" spirit:choiceRef="choice_list_568bd184" spirit:order="292">Data</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE2_PIN2_DATA_STROBE">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN3_DATA_STROBE</spirit:name>
@@ -49438,7 +49612,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN0_SIGNAL_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_SIGNAL_NAME" spirit:order="303">clk</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_SIGNAL_NAME" spirit:order="303">clk_fwd_p</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49449,7 +49623,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN1_SIGNAL_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_SIGNAL_NAME" spirit:order="304">bg2_pin1</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_SIGNAL_NAME" spirit:order="304">clk_fwd_n</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49460,25 +49634,11 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN2_SIGNAL_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_SIGNAL_NAME" spirit:order="305">bg2_pin2</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE2_PIN2_SIGNAL_NAME">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_SIGNAL_NAME" spirit:order="305">bg2_pin2_data_p</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN3_SIGNAL_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_SIGNAL_NAME" spirit:order="306">bg2_pin3</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE2_PIN3_SIGNAL_NAME">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_SIGNAL_NAME" spirit:order="306">bg2_pin3_data_n</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN4_SIGNAL_NAME</spirit:name>
@@ -49581,7 +49741,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN0_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_LOC" spirit:order="316">H11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_LOC" spirit:order="316">D23</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49592,7 +49752,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN1_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_LOC" spirit:order="317">G11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_LOC" spirit:order="317">C23</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49603,7 +49763,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN2_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_LOC" spirit:order="318">H12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_LOC" spirit:order="318">E22</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49614,7 +49774,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN3_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_LOC" spirit:order="319">G12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_LOC" spirit:order="319">E23</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49625,7 +49785,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN4_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN4_LOC" spirit:order="320">K11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN4_LOC" spirit:order="320">B21</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49636,7 +49796,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN5_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN5_LOC" spirit:order="321">J11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN5_LOC" spirit:order="321">B22</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49647,7 +49807,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN6_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN6_LOC" spirit:order="322">L13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN6_LOC" spirit:order="322">C21</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49658,7 +49818,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN7_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN7_LOC" spirit:order="323">K13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN7_LOC" spirit:order="323">C22</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49669,7 +49829,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN8_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN8_LOC" spirit:order="324">L12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN8_LOC" spirit:order="324">B20</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49680,7 +49840,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN9_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN9_LOC" spirit:order="325">K12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN9_LOC" spirit:order="325">A20</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49691,7 +49851,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN10_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN10_LOC" spirit:order="326">J13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN10_LOC" spirit:order="326">D20</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49702,7 +49862,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN11_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN11_LOC" spirit:order="327">H13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN11_LOC" spirit:order="327">D21</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49713,7 +49873,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN12_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN12_LOC" spirit:order="328">F12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN12_LOC" spirit:order="328">A22</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49724,7 +49884,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN0_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_NAME" spirit:order="329">IO_L13P_T2L_N0_GC_QBC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN0_NAME" spirit:order="329">IO_L13P_T2L_N0_GC_QBC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49735,7 +49895,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN1_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_NAME" spirit:order="330">IO_L13N_T2L_N1_GC_QBC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN1_NAME" spirit:order="330">IO_L13N_T2L_N1_GC_QBC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49746,7 +49906,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN2_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_NAME" spirit:order="331">IO_L14P_T2L_N2_GC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_NAME" spirit:order="331">IO_L14P_T2L_N2_GC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49757,7 +49917,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN3_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_NAME" spirit:order="332">IO_L14N_T2L_N3_GC_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_NAME" spirit:order="332">IO_L14N_T2L_N3_GC_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49768,7 +49928,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN4_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN4_NAME" spirit:order="333">IO_L15P_T2L_N4_AD11P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN4_NAME" spirit:order="333">IO_L15P_T2L_N4_AD11P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49779,7 +49939,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN5_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN5_NAME" spirit:order="334">IO_L15N_T2L_N5_AD11N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN5_NAME" spirit:order="334">IO_L15N_T2L_N5_AD11N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49790,7 +49950,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN6_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN6_NAME" spirit:order="335">IO_L16P_T2U_N6_QBC_AD3P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN6_NAME" spirit:order="335">IO_L16P_T2U_N6_QBC_AD3P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49801,7 +49961,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN7_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN7_NAME" spirit:order="336">IO_L16N_T2U_N7_QBC_AD3N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN7_NAME" spirit:order="336">IO_L16N_T2U_N7_QBC_AD3N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49812,7 +49972,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN8_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN8_NAME" spirit:order="337">IO_L17P_T2U_N8_AD10P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN8_NAME" spirit:order="337">IO_L17P_T2U_N8_AD10P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49823,7 +49983,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN9_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN9_NAME" spirit:order="338">IO_L17N_T2U_N9_AD10N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN9_NAME" spirit:order="338">IO_L17N_T2U_N9_AD10N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49834,7 +49994,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN10_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN10_NAME" spirit:order="339">IO_L18P_T2U_N10_AD2P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN10_NAME" spirit:order="339">IO_L18P_T2U_N10_AD2P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49845,7 +50005,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN11_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN11_NAME" spirit:order="340">IO_L18N_T2U_N11_AD2N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN11_NAME" spirit:order="340">IO_L18N_T2U_N11_AD2N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -49856,7 +50016,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN12_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN12_NAME" spirit:order="341">IO_T2U_N12_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN12_NAME" spirit:order="341">IO_T2U_N12_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50543,7 +50703,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN0_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN0_LOC" spirit:order="407">E11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN0_LOC" spirit:order="407">G24</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50554,7 +50714,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN1_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN1_LOC" spirit:order="408">D11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN1_LOC" spirit:order="408">F25</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50565,7 +50725,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN2_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN2_LOC" spirit:order="409">C12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN2_LOC" spirit:order="409">E20</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50576,7 +50736,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN3_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN3_LOC" spirit:order="410">B12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN3_LOC" spirit:order="410">E21</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50587,7 +50747,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN4_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN4_LOC" spirit:order="411">C11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN4_LOC" spirit:order="411">F23</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50598,7 +50758,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN5_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN5_LOC" spirit:order="412">B11</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN5_LOC" spirit:order="412">F24</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50609,7 +50769,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN6_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN6_LOC" spirit:order="413">F13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN6_LOC" spirit:order="413">G20</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50620,7 +50780,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN7_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN7_LOC" spirit:order="414">E13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN7_LOC" spirit:order="414">F20</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50631,7 +50791,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN8_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN8_LOC" spirit:order="415">A13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN8_LOC" spirit:order="415">G22</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50642,7 +50802,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN9_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN9_LOC" spirit:order="416">A12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN9_LOC" spirit:order="416">F22</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50653,7 +50813,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN10_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN10_LOC" spirit:order="417">D13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN10_LOC" spirit:order="417">H21</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50664,7 +50824,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN11_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN11_LOC" spirit:order="418">C13</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN11_LOC" spirit:order="418">G21</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50675,7 +50835,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN12_LOC</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN12_LOC" spirit:order="419">E12</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN12_LOC" spirit:order="419">H22</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50686,7 +50846,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN0_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN0_NAME" spirit:order="420">IO_L19P_T3L_N0_DBC_AD9P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN0_NAME" spirit:order="420">IO_L19P_T3L_N0_DBC_AD9P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50697,7 +50857,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN1_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN1_NAME" spirit:order="421">IO_L19N_T3L_N1_DBC_AD9N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN1_NAME" spirit:order="421">IO_L19N_T3L_N1_DBC_AD9N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50708,7 +50868,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN2_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN2_NAME" spirit:order="422">IO_L20P_T3L_N2_AD1P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN2_NAME" spirit:order="422">IO_L20P_T3L_N2_AD1P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50719,7 +50879,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN3_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN3_NAME" spirit:order="423">IO_L20N_T3L_N3_AD1N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN3_NAME" spirit:order="423">IO_L20N_T3L_N3_AD1N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50730,7 +50890,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN4_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN4_NAME" spirit:order="424">IO_L21P_T3L_N4_AD8P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN4_NAME" spirit:order="424">IO_L21P_T3L_N4_AD8P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50741,7 +50901,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN5_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN5_NAME" spirit:order="425">IO_L21N_T3L_N5_AD8N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN5_NAME" spirit:order="425">IO_L21N_T3L_N5_AD8N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50752,7 +50912,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN6_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN6_NAME" spirit:order="426">IO_L22P_T3U_N6_DBC_AD0P_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN6_NAME" spirit:order="426">IO_L22P_T3U_N6_DBC_AD0P_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50763,7 +50923,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN7_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN7_NAME" spirit:order="427">IO_L22N_T3U_N7_DBC_AD0N_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN7_NAME" spirit:order="427">IO_L22N_T3U_N7_DBC_AD0N_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50774,7 +50934,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN8_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN8_NAME" spirit:order="428">IO_L23P_T3U_N8_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN8_NAME" spirit:order="428">IO_L23P_T3U_N8_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50785,7 +50945,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN9_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN9_NAME" spirit:order="429">IO_L23N_T3U_N9_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN9_NAME" spirit:order="429">IO_L23N_T3U_N9_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50796,7 +50956,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN10_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN10_NAME" spirit:order="430">IO_L24P_T3U_N10_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN10_NAME" spirit:order="430">IO_L24P_T3U_N10_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50807,7 +50967,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN11_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN11_NAME" spirit:order="431">IO_L24N_T3U_N11_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN11_NAME" spirit:order="431">IO_L24N_T3U_N11_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -50818,7 +50978,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE3_PIN12_NAME</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN12_NAME" spirit:order="432">IO_T3U_N12_66</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE3_PIN12_NAME" spirit:order="432">IO_T3U_N12_67</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -51061,10 +51221,17 @@
     <spirit:parameter>
       <spirit:name>BYTE1_PIN8_INIT</spirit:name>
       <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN8_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="454">0</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN8_INIT">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN9_INIT</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN9_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="455">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN9_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="455">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -51076,17 +51243,10 @@
     <spirit:parameter>
       <spirit:name>BYTE1_PIN10_INIT</spirit:name>
       <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN10_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="456">0</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE1_PIN10_INIT">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE1_PIN11_INIT</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="457">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE1_PIN11_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="457">1</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -51131,17 +51291,10 @@
     <spirit:parameter>
       <spirit:name>BYTE2_PIN2_INIT</spirit:name>
       <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN2_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="461">0</spirit:value>
-      <spirit:vendorExtensions>
-        <xilinx:parameterInfo>
-          <xilinx:enablement>
-            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.BYTE2_PIN2_INIT">false</xilinx:isEnabled>
-          </xilinx:enablement>
-        </xilinx:parameterInfo>
-      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BYTE2_PIN3_INIT</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="462">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BYTE2_PIN3_INIT" spirit:choiceRef="choice_list_8af5a703" spirit:order="462">1</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -52050,11 +52203,14 @@
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.APPEND_PIN_NO" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BANK" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BUS_DIR" xilinx:valueSource="user"/>
-        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BYTE1_PIN8_SIGNAL_NAME" xilinx:valueSource="user"/>
-        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BYTE1_PIN8_SIG_TYPE" xilinx:valueSource="user"/>
-        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BYTE1_PIN9_SIGNAL_NAME" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BYTE1_PIN10_SIGNAL_NAME" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BYTE1_PIN11_SIGNAL_NAME" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BYTE2_PIN2_SIGNAL_NAME" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BYTE2_PIN3_SIGNAL_NAME" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CLK_FWD_PHASE" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.DIFFERENTIAL_IO_STD" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.DIFF_IO_P" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.ENABLE_BYTE1_PIN10" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.ENABLE_BYTE1_PIN8" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.ENABLE_BYTE2_PIN0" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.ENABLE_BYTE2_PIN2" xilinx:valueSource="user"/>
@@ -52062,7 +52218,9 @@
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL0_CLK_SOURCE" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL0_DATA_SPEED" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL0_INPUT_CLK_FREQ" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL0_PLLOUT1" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL_LOCS" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.RIU_FROM_PLL" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.TX_PRE_EMPHASIS_D" xilinx:valueSource="user"/>
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>

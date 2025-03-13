@@ -2,31 +2,39 @@ module top(
     //clock source
     input BOARD_CLK125M_N,
     input BOARD_CLK125M_P,      //low speed clock source, main clock on the KCU105
-    input EXTERNAL_CLK400M_N,
-    input EXTERNAL_CLK400M_P,  // external clock generator connected on the SMAs
+    //input EXTERNAL_CLK400M_N,
+    //input EXTERNAL_CLK400M_P,  // external clock generator connected on the SMAs
     //TX port
     output TX_N,
     output TX_P,
+    output CLK_TX_N, // strobe/clock
+    output CLK_TX_P,
     //RX port
     input RX_N,
-    input RX_P
+    input RX_P,
+    input CLK_RX_N, // strobe/clock
+    input CLK_RX_P
 );
 //clock source
 //-------------------------------------------
-wire clk_400m_p;
-wire clk_400m_n;
-assign clk_400m_p = EXTERNAL_CLK400M_P;
-assign clk_400m_n = EXTERNAL_CLK400M_N;
+//wire clk_400m_p;
+//wire clk_400m_n;
+//assign clk_400m_p = EXTERNAL_CLK400M_P;
+//assign clk_400m_n = EXTERNAL_CLK400M_N;
 wire clk_100m;
 wire main_pll_locked;
 wire rst;
 
   main_clk inst_main_clk(
-    .clk_100m(clk_100m),            // output clk_100m
-    .reset(1'b0),                   // never reset
-    .locked(main_pll_locked),       // output locked
+// Clock out ports
+    .clk_100m(clk_100m),     // output clk_100m
+    .clk_200m(clk_200m),     // output clk_200m
+    // Status and control signals
+    .reset(rst),          // input reset
+    .locked(locked),        // output locked
+    // Clock in ports
     .clk_in1_p(BOARD_CLK125M_P),    // input clk_in1_p
-    .clk_in1_n(BOARD_CLK125M_N)     // input clk_in1_n
+    .clk_in1_n(BOARD_CLK125M_P)    // input clk_in1_n
 );
 //-------------------------------------------
 
@@ -44,67 +52,102 @@ counter_datagen counter_datasource (
 //-------------------------------------------
 //output
 wire tx_vtc_rdy_bsc3;
+wire tx_vtc_rdy_bsc4;
 wire tx_dly_rdy_bsc3;
+wire tx_dly_rdy_bsc4;
 wire tx_rst_seq_done;
 wire tx_shared_pll0_clkoutphy_out;
 wire tx_pll0_clkout0;
+wire tx_pll0_clkout1;
 wire tx_pll0_locked;
+wire [7:0] strobe;
+
+assign strobe = 8'b10101010;  
 
 HPIO_TX inst_hpio_tx (
   .vtc_rdy_bsc3(tx_vtc_rdy_bsc3),                                  // output wire vtc_rdy_bsc3
   .en_vtc_bsc3(1'b1),                                              // input wire en_vtc_bsc3
+  .vtc_rdy_bsc4(tx_vtc_rdy_bsc4),                                     // output wire vtc_rdy_bsc4
+  .en_vtc_bsc4(en_vtc_bsc4),                                       // input wire en_vtc_bsc4
   .dly_rdy_bsc3(tx_dly_rdy_bsc3),                                  // output wire dly_rdy_bsc3
+  .dly_rdy_bsc4(tx_dly_rdy_bsc4),                                     // output wire dly_rdy_bsc4
   .rst_seq_done(tx_rst_seq_done),                                  // output wire rst_seq_done
   .shared_pll0_clkoutphy_out(tx_shared_pll0_clkoutphy_out),        // output wire shared_pll0_clkoutphy_out
   .pll0_clkout0(tx_pll0_clkout0),                                  // output wire pll0_clkout0
+  .pll0_clkout1(tx_pll0_clkout1),                                     // output wire pll0_clkout1
   .rst(1'b0),                                                      // input wire rst
   .clk(clk_100m),                                                  // input wire clk_p // input wire clk_n
-  .riu_clk(clk_100m),                                              // input wire riu_clk
   .pll0_locked(tx_pll0_locked),                                    // output wire pll0_locked
-  .dataout_p_21(TX_P),                                             // output wire dataout_p_21
-  .data_from_fabric_dataout_p_21(data_test),                       // input wire [7 : 0] data_from_fabric_dataout_p_21
-  .dataout_n_22(TX_N)                                              // output wire dataout_n_22
+  .bg1_pin10_clk_p_23(CLK_TX_P),                                    // output wire bg1_pin10_clk_p_23
+  .data_from_fabric_bg1_pin10_clk_p_23(strobe),  // input wire [7 : 0] data_from_fabric_bg1_pin10_clk_p_23
+  .bg1_pin11_clk_n_24(CLK_TX_N),                                    // output wire bg1_pin11_clk_n_24
+  .bg2_pin2_data_p_28(TX_P),                                    // output wire bg2_pin2_data_p_28
+  .data_from_fabric_bg2_pin2_data_p_28(data_test),  // input wire [7 : 0] data_from_fabric_bg2_pin2_data_p_28
+  .bg2_pin3_data_n_29(TX_N)                                    // output wire bg2_pin3_data_n_29
 );
-//-------------------------------------------
+
 
 //RX port
 //-------------------------------------------
 //output
 wire rx_fifo_rd_data_valid;
-wire rx_fifo_empty_28;
-wire rx_fifo_empty_29;
+wire rx_fifo_empty_21;
+wire rx_fifo_empty_22;
+wire rx_fifo_empty_26;
+wire rx_fifo_empty_27;
+wire rx_vtc_rdy_bsc2;
+wire rx_dly_rdy_bsc2;
+wire rx_vtc_rdy_bsc3;
+wire rx_dly_rdy_bsc3;
 wire rx_vtc_rdy_bsc4;
 wire rx_dly_rdy_bsc4;
 wire rx_rst_seq_done;
 wire rx_shared_pll0_clkoutphy_out;
 wire rx_pll0_clkout0;
+wire rx_pll0_clkout1;
 wire rx_pll0_locked;
 wire [7:0] data_to_fabric_p;
 wire [7:0] data_to_fabric_n;
+wire [7:0] data_to_fabric_clk_n;
+wire [7:0] data_to_fabric_clk_p;
 
 HPIO_RX inst_hpio_rx (
-  .fifo_rd_data_valid(rx_fifo_rd_data_valid),                  // output wire fifo_rd_data_valid
-  .fifo_rd_clk_28(clk_100m),                                   // input wire fifo_rd_clk_28
-  .fifo_rd_clk_29(clk_100m),                                   // input wire fifo_rd_clk_29
-  .fifo_empty_28(rx_fifo_empty_28),                            // output wire fifo_empty_28
-  .fifo_empty_29(rx_fifo_empty_29),                            // output wire fifo_empty_29
-  .vtc_rdy_bsc4(rx_vtc_rdy_bsc4),                              // output wire vtc_rdy_bsc4
-  .en_vtc_bsc4(1'b1),                                          // input wire en_vtc_bsc4
-  .dly_rdy_bsc4(rx_dly_rdy_bsc4),                              // output wire dly_rdy_bsc4
-  .rst_seq_done(rx_rst_seq_done),                              // output wire rst_seq_done
-  .shared_pll0_clkoutphy_out(rx_shared_pll0_clkoutphy_out),    // output wire shared_pll0_clkoutphy_out
-  .pll0_clkout0(rx_pll0_clkout0),                              // output wire pll0_clkout0
-  .rst(1'b0),                                                  // input wire rst
-  .clk_p(clk_400m_p),                                          // input wire clk_p
-  .clk_n(clk_400m_n),                                          // input wire clk_n
-  .riu_clk(clk_100m),                                          // input wire riu_clk
-  .pll0_locked(rx_pll0_locked),                                // output wire pll0_locked
-  .datain_p_28(RX_P),                                          // input wire datain_p_28
-  .data_to_fabric_datain_p_28(data_to_fabric_p),               // output wire [7 : 0] data_to_fabric_datain_p_29
-  .datain_n_29(RX_N),                                          // input wire datain_n_29
-  .data_to_fabric_datain_n_29(data_to_fabric_n)                // output wire [7 : 0] data_to_fabric_datain_n_29
+  .fifo_rd_data_valid(rx_fifo_rd_data_valid),                                // output wire fifo_rd_data_valid
+  .fifo_rd_clk_21(clk_100m),                                        // input wire fifo_rd_clk_21
+  .fifo_rd_clk_22(clk_100m),                                        // input wire fifo_rd_clk_22
+  .fifo_rd_clk_26(clk_100m),                                        // input wire fifo_rd_clk_26
+  .fifo_rd_clk_27(clk_100m),                                        // input wire fifo_rd_clk_27
+  .fifo_empty_21(rx_fifo_empty_21),                                          // output wire fifo_empty_21
+  .fifo_empty_22(rx_fifo_empty_22),                                          // output wire fifo_empty_22
+  .fifo_empty_26(rx_fifo_empty_26),                                          // output wire fifo_empty_26
+  .fifo_empty_27(rx_fifo_empty_27),                                          // output wire fifo_empty_27
+  .vtc_rdy_bsc2(rx_vtc_rdy_bsc2),                                            // output wire vtc_rdy_bsc2
+  .en_vtc_bsc2(1'b1),                                              // input wire en_vtc_bsc2
+  .vtc_rdy_bsc3(rx_vtc_rdy_bsc3),                                            // output wire vtc_rdy_bsc3
+  .en_vtc_bsc3(1'b1),                                              // input wire en_vtc_bsc3
+  .vtc_rdy_bsc4(rx_vtc_rdy_bsc4),                                            // output wire vtc_rdy_bsc4
+  .en_vtc_bsc4(1'b1),                                              // input wire en_vtc_bsc4
+  .dly_rdy_bsc2(rx_dly_rdy_bsc2),                                            // output wire dly_rdy_bsc2
+  .dly_rdy_bsc3(rx_dly_rdy_bsc3),                                            // output wire dly_rdy_bsc3
+  .dly_rdy_bsc4(rx_dly_rdy_bsc4),                                            // output wire dly_rdy_bsc4
+  .rst_seq_done(rx_rst_seq_done),                                            // output wire rst_seq_done
+  .shared_pll0_clkoutphy_out(rx_shared_pll0_clkoutphy_out),                  // output wire shared_pll0_clkoutphy_out
+  .pll0_clkout0(rx_pll0_clkout0),                                            // output wire pll0_clkout0
+  .pll0_clkout1(rx_pll0_clkout1),                                            // output wire pll0_clkout1
+  .rst(1'b0),                                                              // input wire rst
+  .clk(clk_100m),                                                              // input wire clk
+  .riu_clk(clk_200m),                                                      // input wire riu_clk
+  .pll0_locked(rx_pll0_locked),                                              // output wire pll0_locked
+  .bg1_pin0_nc(1'b0),                                              // input wire bg1_pin0_nc
+  .bg1_pin8_data_p_21(RX_P),                                // input wire bg1_pin8_data_p_21
+  .data_to_fabric_bg1_pin8_data_p_21(data_to_fabric_p),  // output wire [7 : 0] data_to_fabric_bg1_pin8_data_p_21
+  .bg1_pin9_data_n_22(RX_N),                                // input wire bg1_pin9_data_n_22
+  .data_to_fabric_bg1_pin9_data_n_22(data_to_fabric_n),  // output wire [7 : 0] data_to_fabric_bg1_pin9_data_n_22
+  .clk_p_26(CLK_RX_P),                                                    // input wire clk_p_26
+  .data_to_fabric_clk_p_26(data_to_fabric_clk_p),                      // output wire [7 : 0] data_to_fabric_clk_p_26
+  .clk_n_27(CLK_RX_N),                                                    // input wire clk_n_27
+  .data_to_fabric_clk_n_27(data_to_fabric_clk_n)                      // output wire [7 : 0] data_to_fabric_clk_n_27
 );
-//-------------------------------------------
 
 //reset
 //-------------------------------------------
