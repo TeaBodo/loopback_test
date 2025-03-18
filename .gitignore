@@ -1,4 +1,5 @@
-# Ignore Vivado generated files
+/ip/
+.xml
 *.jou  
 *.log  
 *.str  
@@ -12,10 +13,10 @@
 *.wcfg
 *.wdb  
 *.pb   
-*.xml   
 
 /loopback/
 /bitstream/
+
 *.tmp
 
 # Ignore Vivado SDK directories

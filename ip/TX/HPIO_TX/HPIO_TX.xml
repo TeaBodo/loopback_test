@@ -10795,7 +10795,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:39 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10814,7 +10814,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:39 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10832,7 +10832,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:49 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:38 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10861,7 +10861,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:39 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10879,7 +10879,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:39 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10909,7 +10909,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:49 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:38 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10929,7 +10929,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:39 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10949,7 +10949,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:39 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -10967,7 +10967,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Mar 05 17:30:50 UTC 2025</spirit:value>
+            <spirit:value>Tue Mar 18 13:32:39 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -46377,7 +46377,28 @@
       <spirit:enumeration>1</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
-      <spirit:name>choice_list_95bda258</spirit:name>
+      <spirit:name>choice_list_9793988b</spirit:name>
+      <spirit:enumeration>TX</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_997181f0</spirit:name>
+      <spirit:enumeration>SLIP_PER_BIT</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_aefbe433</spirit:name>
+      <spirit:enumeration>5</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_c8951bc1</spirit:name>
+      <spirit:enumeration>NONE</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_d10f4555</spirit:name>
+      <spirit:enumeration>FALSE</spirit:enumeration>
+      <spirit:enumeration>TRUE</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_d995b292</spirit:name>
       <spirit:enumeration>72.727</spirit:enumeration>
       <spirit:enumeration>80.000</spirit:enumeration>
       <spirit:enumeration>88.889</spirit:enumeration>
@@ -46418,27 +46439,13 @@
       <spirit:enumeration>700.000</spirit:enumeration>
       <spirit:enumeration>711.111</spirit:enumeration>
       <spirit:enumeration>720.000</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_list_9793988b</spirit:name>
-      <spirit:enumeration>TX</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_list_997181f0</spirit:name>
-      <spirit:enumeration>SLIP_PER_BIT</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_list_aefbe433</spirit:name>
-      <spirit:enumeration>5</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_list_c8951bc1</spirit:name>
-      <spirit:enumeration>NONE</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_list_d10f4555</spirit:name>
-      <spirit:enumeration>FALSE</spirit:enumeration>
-      <spirit:enumeration>TRUE</spirit:enumeration>
+      <spirit:enumeration>727.273</spirit:enumeration>
+      <spirit:enumeration>800.000</spirit:enumeration>
+      <spirit:enumeration>872.727</spirit:enumeration>
+      <spirit:enumeration>880.000</spirit:enumeration>
+      <spirit:enumeration>888.889</spirit:enumeration>
+      <spirit:enumeration>900.000</spirit:enumeration>
+      <spirit:enumeration>914.286</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choice_list_e74214d2</spirit:name>
@@ -46765,7 +46772,7 @@
     <spirit:parameter>
       <spirit:name>PLL0_INPUT_CLK_FREQ</spirit:name>
       <spirit:displayName>PLL Input Clk Frequency</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_INPUT_CLK_FREQ" spirit:choiceRef="choice_list_95bda258" spirit:order="18">100.000</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_INPUT_CLK_FREQ" spirit:choiceRef="choice_list_d995b292" spirit:order="18">100.000</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PLL0_RX_EXTERNAL_CLK_TO_DATA</spirit:name>
@@ -52220,6 +52227,7 @@
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL0_INPUT_CLK_FREQ" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL0_PLLOUT1" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL_LOCS" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PLL_SHARING" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.RIU_FROM_PLL" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.TX_PRE_EMPHASIS_D" xilinx:valueSource="user"/>
       </xilinx:configElementInfos>
