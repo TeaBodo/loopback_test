@@ -10811,11 +10811,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:07 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:51 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:60b09454</spirit:value>
+            <spirit:value>9:d89bf626</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10830,11 +10830,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:07 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:51 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:ad3527ce</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10848,11 +10848,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:06 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:ad3527ce</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10863,7 +10863,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:646b356d</spirit:value>
+            <spirit:value>9:24e2cc74</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10877,11 +10877,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:43 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:52 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:0a251de0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10895,11 +10895,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:07 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:51 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:ad3527ce</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10910,7 +10910,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:ad3527ce</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10925,11 +10925,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:06 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:50 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:ad3527ce</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10945,11 +10945,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:07 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:51 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:60b09454</spirit:value>
+            <spirit:value>9:d89bf626</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10965,11 +10965,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:07 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:51 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:ad3527ce</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -10983,11 +10983,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 18 13:36:07 UTC 2025</spirit:value>
+            <spirit:value>Mon Mar 24 13:21:51 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0e08c142</spirit:value>
+            <spirit:value>9:ad3527ce</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -44590,7 +44590,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_PLL0_CLKOUT1_DIVIDE</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_CLKOUT1_DIVIDE">8</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_CLKOUT1_DIVIDE">4</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="REAL">
         <spirit:name>C_PLL0_MMCM_CLKFBOUT_MULT_F</spirit:name>
@@ -45878,7 +45878,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="REAL">
         <spirit:name>C_TX_REFCLK_FREQ</spirit:name>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_TX_REFCLK_FREQ">800</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_TX_REFCLK_FREQ">1600</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="REAL">
         <spirit:name>C_CLKIN_PERIOD</spirit:name>
@@ -46042,23 +46042,23 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="REAL">
         <spirit:name>C_RX_REFCLK_FREQ</spirit:name>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RX_REFCLK_FREQ">800</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_RX_REFCLK_FREQ">1600</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_PLL0_CLKOUTPHY_MODE</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_CLKOUTPHY_MODE">VCO</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_CLKOUTPHY_MODE">VCO_2X</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_PLL1_CLKOUTPHY_MODE</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL1_CLKOUTPHY_MODE">VCO</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL1_CLKOUTPHY_MODE">VCO_2X</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="REAL">
         <spirit:name>C_PLL0_DIV_FACTOR</spirit:name>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_DIV_FACTOR">1.0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL0_DIV_FACTOR">0.5</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="REAL">
         <spirit:name>C_PLL1_DIV_FACTOR</spirit:name>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL1_DIV_FACTOR">1.0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_PLL1_DIV_FACTOR">0.5</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_BANK</spirit:name>
@@ -46834,7 +46834,7 @@
     <spirit:parameter>
       <spirit:name>PLL0_DATA_SPEED</spirit:name>
       <spirit:displayName>Interface Speed</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_DATA_SPEED" spirit:order="16" spirit:minimum="300.00" spirit:maximum="1600.00">800</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_DATA_SPEED" spirit:order="16" spirit:minimum="300.00" spirit:maximum="1600.00">1600</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MIPI_RX_DATA_SPEED</spirit:name>
@@ -46876,7 +46876,7 @@
     <spirit:parameter>
       <spirit:name>PLL0_PLLOUT0</spirit:name>
       <spirit:displayName>PLL CLKOUT0</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_PLLOUT0" spirit:order="23">100.000</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_PLLOUT0" spirit:order="23">200.000</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -46905,7 +46905,7 @@
     <spirit:parameter>
       <spirit:name>PLL0_PLLOUT1</spirit:name>
       <spirit:displayName>PLL CLKOUT1</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_PLLOUT1" spirit:choiceRef="choice_list_7065a963" spirit:order="26">100.000</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PLL0_PLLOUT1" spirit:choiceRef="choice_list_7065a963" spirit:order="26">200.000</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>EN_IBUF_CLKOUT</spirit:name>

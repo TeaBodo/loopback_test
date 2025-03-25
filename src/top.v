@@ -2,8 +2,6 @@ module top(
     //clock source
     input BOARD_CLK125M_N,
     input BOARD_CLK125M_P,      //low speed clock source, main clock on the KCU105
-    //input EXTERNAL_CLK400M_N,
-    //input EXTERNAL_CLK400M_P,  // external clock generator connected on the SMAs
     //TX port
     output TX_N,
     output TX_P,
@@ -18,19 +16,17 @@ module top(
 );
 //clock source
 //-------------------------------------------
-//wire clk_400m_p;
-//wire clk_400m_n;
-//assign clk_400m_p = EXTERNAL_CLK400M_P;
-//assign clk_400m_n = EXTERNAL_CLK400M_N;
 wire clk_100m;
 wire clk_200m;
+wire clk_400m;
 wire main_pll_locked;
 wire rst;
 
 main_clk inst_main_clk(
 // Clock out ports
-    .clk_200m(clk_200m),     // output clk_200m
-    .clk_100m(clk_100m),     // output clk_100m
+    .clk_100m(clk_100m),     // output clk_200m
+    .clk_200m(clk_200m),     // output clk_100m
+    .clk_400m(clk_400m),     // output clk_400m
     // Status and control signals
     .reset(1'b0),          // input reset
     .locked(main_pll_locked),        // output locked
@@ -44,7 +40,7 @@ main_clk inst_main_clk(
 //-------------------------------------------
 wire [7:0] data_test;
 counter_datagen counter_datasource (
-    .clk(clk_100m),
+    .clk(clk_200m),
     .rst(1'b0),
     .count(data_test)
 );
@@ -112,10 +108,10 @@ wire [7:0] data_to_fabric_clk_p;
 
 HPIO_RX inst_hpio_rx (
   .fifo_rd_data_valid(rx_fifo_rd_data_valid),                                // output wire fifo_rd_data_valid
-  .fifo_rd_clk_21(clk_100m),                                        // input wire fifo_rd_clk_21
-  .fifo_rd_clk_22(clk_100m),                                        // input wire fifo_rd_clk_22
-  .fifo_rd_clk_26(clk_100m),                                        // input wire fifo_rd_clk_26
-  .fifo_rd_clk_27(clk_100m),                                        // input wire fifo_rd_clk_27
+  .fifo_rd_clk_21(clk_200m),                                        // input wire fifo_rd_clk_21
+  .fifo_rd_clk_22(clk_200m),                                        // input wire fifo_rd_clk_22
+  .fifo_rd_clk_26(clk_200m),                                        // input wire fifo_rd_clk_26
+  .fifo_rd_clk_27(clk_200m),                                        // input wire fifo_rd_clk_27
   .fifo_empty_21(rx_fifo_empty_21),                                          // output wire fifo_empty_21
   .fifo_empty_22(rx_fifo_empty_22),                                          // output wire fifo_empty_22
   .fifo_empty_26(rx_fifo_empty_26),                                          // output wire fifo_empty_26
@@ -156,7 +152,7 @@ assign rst = (~main_pll_locked) | (~tx_pll0_locked) | (~rx_pll0_locked);
 //probe
 //-------------------------------------------
 ILA inst_ILA (
-	.clk(clk_200m),             // input wire clk
+	.clk(clk_400m),             // input wire clk
 
 	.probe0(data_to_fabric_p),  // input wire [7:0]  probe0  
 	.probe1(data_test),         // input wire [7:0]  probe1 
@@ -166,10 +162,10 @@ ILA inst_ILA (
 	.probe5(probe5),            // input wire [7:0]  probe5 
 	.probe6(probe6),            // input wire [7:0]  probe6 
 	.probe7(probe7),            // input wire [7:0]  probe7 
-	.probe8(tx_pll0_clkout0),   // input wire [0:0]  probe8 
-	.probe9(tx_pll0_locked),    // input wire [0:0]  probe9 
-	.probe10(rx_pll0_clkout0),  // input wire [0:0]  probe10 
-	.probe11(rx_pll0_locked),   // input wire [0:0]  probe11 
+	.probe8(probe8),   // input wire [0:0]  probe8 
+	.probe9(probe9),    // input wire [0:0]  probe9 
+	.probe10(probe10),  // input wire [0:0]  probe10 
+	.probe11(probe11),   // input wire [0:0]  probe11 
 	.probe12(probe12),          // input wire [0:0]  probe12 
 	.probe13(probe13),          // input wire [0:0]  probe13 
 	.probe14(probe14),          // input wire [0:0]  probe14 
