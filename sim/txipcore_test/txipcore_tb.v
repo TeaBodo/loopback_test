@@ -26,6 +26,7 @@ reg rst;
 reg clk_p;//800mhz
 reg clk_n;
 reg clk_100m;
+reg clk_200m;
 reg source_rst;
 //output
 wire tx_vtc_rdy_bsc3;
@@ -52,12 +53,17 @@ always begin
 end
 //200mhz clock
 always begin
+    #2.5;
+    clk_200m = ~clk_200m;
+end
+always begin
     #5;
     clk_100m = ~clk_100m;
 end
 initial begin
     rst = 1'b1;
     clk_100m = 1'b0;
+    clk_200m = 1'b0;
     clk_p = 1'b1;
     clk_n = 1'b0;
     source_rst = 1'b1;
@@ -72,7 +78,7 @@ end
 //data source
 //-------------------------------------------
 counter_datagen counter_datasource (
-    .clk(clk_100m),
+    .clk(clk_200m),
     .rst(source_rst),
     .count(data_test)
 );
