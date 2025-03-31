@@ -21,9 +21,8 @@
 
 module loopback_tb();
 //input
-wire clk_320m;
-wire clk_160m;
-wire clk_80m;
+wire clk_200m;
+wire clk_400m;
 
 reg clk_125m_p;
 reg clk_125m_n;
@@ -108,9 +107,8 @@ end
 //-------------------------------------------
 main_clk inst_main_clk(
 // Clock out ports
-    .clk_320m(clk_320m),     // output clk_320m
-    .clk_160m(clk_160m),     // output clk_160m
-    .clk_80m(clk_80m),       // output clk_80m
+    .clk_400m(clk_400m),     // output clk_400m
+    .clk_200m(clk_200m),     // output clk_200m
     // Status and control signals
     .reset(1'b0),               // input reset
     .locked(main_pll_locked),   // output locked
@@ -122,7 +120,7 @@ main_clk inst_main_clk(
 //data source
 //-------------------------------------------
 counter_datagen counter_datasource (
-    .clk(clk_160m),
+    .clk(clk_200m),
     .rst(source_rst),
     .count(data_test)
 );
@@ -140,7 +138,7 @@ HPIO_TX inst_hpio_tx (
   .pll0_clkout0(tx_pll0_clkout0),                                   // output wire pll0_clkout0
   .pll0_clkout1(tx_pll0_clkout1),                                   // output wire pll0_clkout1
   .rst(1'b0),                                                       // input wire rst
-  .clk(clk_80m),                                                   // input wire clk_p // input wire clk_n
+  .clk(clk_400m),                                                   // input wire clk_p // input wire clk_n
   .pll0_locked(tx_pll0_locked),                                     // output wire pll0_locked
   .bg1_pin10_clk_p_23(CLK_TX_P),                                    // output wire bg1_pin10_clk_p_23
   .data_from_fabric_bg1_pin10_clk_p_23(8'b01010101),                // input wire [7 : 0] data_from_fabric_bg1_pin10_clk_p_23
@@ -154,10 +152,10 @@ HPIO_TX inst_hpio_tx (
 //-------------------------------------------
 HPIO_RX inst_hpio_rx (
   .fifo_rd_data_valid(rx_fifo_rd_data_valid),                       // output wire fifo_rd_data_valid
-  .fifo_rd_clk_21(clk_80m),                                        // input wire fifo_rd_clk_21
-  .fifo_rd_clk_22(clk_80m),                                        // input wire fifo_rd_clk_22
-  .fifo_rd_clk_26(clk_80m),                                        // input wire fifo_rd_clk_26
-  .fifo_rd_clk_27(clk_80m),                                        // input wire fifo_rd_clk_27
+  .fifo_rd_clk_21(rx_pll0_clkout0),                                        // input wire fifo_rd_clk_21
+  .fifo_rd_clk_22(rx_pll0_clkout0),                                        // input wire fifo_rd_clk_22
+  .fifo_rd_clk_26(rx_pll0_clkout0),                                        // input wire fifo_rd_clk_26
+  .fifo_rd_clk_27(rx_pll0_clkout0),                                        // input wire fifo_rd_clk_27
   .fifo_empty_21(rx_fifo_empty_21),                                 // output wire fifo_empty_21
   .fifo_empty_22(rx_fifo_empty_22),                                 // output wire fifo_empty_22
   .fifo_empty_26(rx_fifo_empty_26),                                 // output wire fifo_empty_26
@@ -176,7 +174,7 @@ HPIO_RX inst_hpio_rx (
   .pll0_clkout0(rx_pll0_clkout0),                                   // output wire pll0_clkout0
   .pll0_clkout1(rx_pll0_clkout1),                                   // output wire pll0_clkout1
   .rst(1'b0),                                                       // input wire rst
-  .clk(clk_80m),                                                   // input wire clk
+  .clk(clk_400m),                                                   // input wire clk
   .pll0_locked(rx_pll0_locked),                                     // output wire pll0_locked
   .bg1_pin0_nc(bg1_pin0_nc),                                        // input wire bg1_pin0_nc
   .bg1_pin8_data_p_21(TX_P),                                        // input wire bg1_pin8_data_p_21
