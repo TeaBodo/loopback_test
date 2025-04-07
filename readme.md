@@ -1,22 +1,21 @@
 # Loopback Test
 
-## Objective
+## Primary Objective
 The objective of this loopback test is to set up the HP IOs via the High Speed SelectIO Wizard in Vivado.
-For this, a loopback data path is created on the KCU105 v1.1 via the FMC XM107.
-There are several branches with different speed and mode options.
+For this, a loopback data path is created on the KCU105 v1.1 via the FMC XM107. 
+There are currently many branch but 1600_strobe is the primary for the study where 
+* two HPIO IPs are used as Tx and Rx
+* data rate is set up to 1.6 Gbps
+* input clock is 200MHz to both IPs
+* Rx is set up as DDR Stobe Center with one input data and one strobe/clock from Tx, both differential
 
-## Tools
-* Vivado 2024.2
-* High Speed SelectIO Wizard 3.6
-* KCU105
-* XM107 Loopback FMC card
-
-## Quick Start
-1. Clone this repo
+### Quick Start
+1. Clone this repository
 2. Open Vivado TCL console
-3. Change directory to the repo
-4. Source the script `source ./prj_gen.tcl`
+3. Change directory to the repository
+4. Source the script `source ./project_gen.tcl`
 
-## Simulation (code not updated)
-5. Hierarchy window -> Simulation sources -> Right click on `TXIPcore_sim` -> Make active
-6. Run simulation
+### Quick Simulation 
+1. Locate Sources window and Simulation Sources folder
+2. Right-click on `loopback_sim` and Make Active
+3. Locate Flow Navigator window and start Run Simulation (behavioral)

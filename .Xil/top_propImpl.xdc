@@ -1,0 +1,11 @@
+set_property SRC_FILE_INFO {cfile:c:/Users/KU_ALICE_Lab/Documents/Vivado_Tea/loopback/src/pll/MAIN_CLK/MAIN_CLK.xdc rfile:../../../Vivado_Tea/loopback/src/pll/MAIN_CLK/MAIN_CLK.xdc id:1 order:EARLY scoped_inst:inst_main_clk/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/KU_ALICE_Lab/Documents/Vivado_Tea/loopback/src/ILA/ILA/ila_v6_2/constraints/ila.xdc rfile:../../../Vivado_Tea/loopback/src/ILA/ILA/ila_v6_2/constraints/ila.xdc id:2 order:EARLY scoped_inst:inst_ILA/inst} [current_design]
+current_instance inst_main_clk/inst
+set_property src_info {type:SCOPED_XDC file:1 line:54 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1_p]] 0.080
+current_instance
+current_instance inst_ILA/inst
+set_property src_info {type:SCOPED_XDC file:2 line:108 export:INPUT save:INPUT read:READ} [current_design]
+create_waiver -internal -quiet -type CDC -id {CDC-10} -user ila -tags "1191969" -description "CDC-10 waiver for DDR Calibration logic" -scope -from [get_pins -quiet -filter {REF_PIN_NAME=~*CLK} -of_objects [get_cells -hierarchical -filter {NAME =~*u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/DUT/u_srl_drive}]] -to [get_pins -quiet -filter {REF_PIN_NAME=~*D} -of_objects [get_cells -hierarchical -filter {NAME =~*u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/DUT/I_IS_TERMINATION_SLICE_W_OUTPUT_REG.DOUT_O_reg}]]
+set_property src_info {type:SCOPED_XDC file:2 line:112 export:INPUT save:INPUT read:READ} [current_design]
+create_waiver -internal -quiet -type CDC -id {CDC-10} -user system_ila -tags "1196835" -description "CDC-10 waiver for DDR Calibration logic" -scope -from [get_pins -quiet -filter {REF_PIN_NAME=~*CLK} -of_objects [get_cells -hierarchical -filter {NAME =~*u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/DUT/u_srl_drive}]] -to [get_pins -quiet -filter {REF_PIN_NAME=~*D} -of_objects [get_cells -hierarchical -filter {NAME =~*u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/I_IS_TERMINATION_SLICE_W_OUTPUT_REG.DOUT_O_reg}]]
