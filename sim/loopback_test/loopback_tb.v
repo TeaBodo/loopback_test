@@ -190,7 +190,7 @@ HPIO_RX inst_hpio_rx (
 //-------------------------------------------
 
 ILA inst_ILA (
-	.clk(clk_320m),                // input wire clk
+	.clk(clk_200m),                // input wire clk
 
 	.probe0(data_to_fabric_p),    // input wire [7:0]  probe0  
 	.probe1(data_test),           // input wire [7:0]  probe1 

@@ -73,7 +73,7 @@ HPIO_TX inst_hpio_tx (
   .clk(clk_400m),                                                  // input wire clk_p // input wire clk_n
   .pll0_locked(tx_pll0_locked),                                    // output wire pll0_locked
   .bg1_pin10_clk_p_23(CLK_TX_P),                                    // output wire bg1_pin10_clk_p_23
-  .data_from_fabric_bg1_pin10_clk_p_23(8'b01010101),  // input wire [7 : 0] data_from_fabric_bg1_pin10_clk_p_23
+  .data_from_fabric_bg1_pin10_clk_p_23(8'b10101010),  // input wire [7 : 0] data_from_fabric_bg1_pin10_clk_p_23
   .bg1_pin11_clk_n_24(CLK_TX_N),                                    // output wire bg1_pin11_clk_n_24
   .bg2_pin2_data_p_28(TX_P),                                    // output wire bg2_pin2_data_p_28
   .data_from_fabric_bg2_pin2_data_p_28(data_test),  // input wire [7 : 0] data_from_fabric_bg2_pin2_data_p_28
@@ -150,7 +150,7 @@ assign rst = (~main_pll_locked) | (~tx_pll0_locked) | (~rx_pll0_locked);
 //probe
 //-------------------------------------------
 ILA inst_ILA (
-	.clk(clk_400m),             // input wire clk
+	.clk(clk_200m),             // input wire clk
 
 	.probe0(data_test),  // input wire [7:0]  probe0  
 	.probe1(data_to_fabric_p),         // input wire [7:0]  probe1 
