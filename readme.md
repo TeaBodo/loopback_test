@@ -3,7 +3,7 @@
 ## Primary Objective
 The objective of this loopback test is to set up the HP IOs via the High Speed SelectIO Wizard in Vivado.
 For this, a loopback data path is created on the KCU105 v1.1 via the FMC XM107. 
-There are currently many branch but 1600_strobe is the primary for the study where 
+There are currently many branches but strobe_1600 is the primary for the study where 
 * two HPIO IPs are used as Tx and Rx
 * data rate is set up to 1.6 Gbps
 * input clock is 200MHz to both IPs
